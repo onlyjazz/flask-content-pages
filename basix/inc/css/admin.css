@@ -1,0 +1,30 @@
+.basix_admin_table {
+	display: table;
+}
+.basix_admin_table_cell {
+	display: table-cell;
+}
+#post-format-meta .basix_meta_upload_button {
+	margin-right: 10px;
+	display: inline-block;
+}
+#post-format-meta .basix_meta_upload_path_preview {
+	font-size: 12px;
+}
+#post-format-meta a.basix_meta_upload_remove {
+	display: none;
+	margin-left: 10px;
+	color: #e14d43;
+	text-decoration: none;
+	border-bottom: 1px dotted;
+	font-size: 12px;
+}
+body#tinymce {
+	font-family: Arial, Helvetica, sans-serif !important;
+}
+.rev_support {
+	display: none;
+}
+.icon_set-FontAwesome .smile_del_icon {
+	display: none !important;
+}

@@ -1,0 +1,34 @@
+#wpfooter {
+	display: none;
+}
+#wpbody-content {
+	padding-bottom: 10px;
+}
+.redux-container {
+	margin-top: 10px;
+	background-image: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+#redux-header {
+	border-bottom: none;
+}
+#redux-header .display_header h2 {
+	padding: 6px 15px 6px 0;
+}
+#redux-header .display_header {
+	margin: 0;
+}
+#redux-header .display_header h2 {
+	font-size: 18px;
+	font-weight: bold;
+}
+.redux-sidebar .redux-group-menu li a {
+	opacity: 0.85;
+}
+.redux-container-ace_editor .ace_editor {
+	height: 500px;
+}
+#basix-custom_css {
+	padding-top: 0 !important;
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Clear Clinica</title>
+		
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+		
+		
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	
+	<body>		
+		<div class="page">
+			<header class="page-header">
+				<div class="grid-row">
+					<div class="grid-col grid-col_12">
+						<div class="logo">Clear Clinica</div>
+					</div>
+					<div class="grid-col grid-col_12 tar fs0">
+						<div class="top-nav">
+							<div class="top-nav__item">
+								<a href="#" class="top-nav__link material-icons">notifications</a>
+								<i class="top-nav__count">3</i>
+							</div>
+							<div class="top-nav__item">
+								<a href="#" class="top-nav__link material-icons">menu</a>
+								<div class="top-nav__drop">
+									<a href="#">Profile</a>
+									<a href="#" data-ref="#popup-settings" class="js-popup-opener">Settings</a>
+									<a href="#">Help and Support</a>
+									<a href="index.html">Logout</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+						
+			
+			<aside class="page-aside">
+				<div class="main-nav">
+					<a href="studies.html" class="main-nav__item"><i class="material-icons">dashboard</i>Studies</a>
+					<hr class="main-nav__sep">
+					<a href="sites.html" class="main-nav__item"><i class="material-icons">assignment</i>Sites</a>
+					<hr class="main-nav__sep">
+					<a href="users.html" class="main-nav__item main-nav__item_active"><i class="material-icons">people</i>Users</a>
+					<hr class="main-nav__sep">
+					<a href="rules.html" class="main-nav__item"><i class="material-icons">swap_calls</i>Rules</a>
+				</div>
+			</aside>
+						
+			
+			<main class="page-content">
+				<div class="page-title">
+					<a href="user-add.html" class="button button_green">Add new user</a>
+					<h1 class="heading_1">Users</h1>
+				</div>
+				
+				
+				<div class="grid-row">
+					<div class="grid-col grid-col_6">
+						<div class="filters card">
+							<div class="heading heading_3">Filters</div>
+							<div class="input">
+								<input type="text" class="input__text">
+								<label class="input__label">Search by name</label>
+							</div>
+							<div class="input input_select">
+								<select class="input__text input__text_changed">
+									<option selected> All</option>
+									<option>Boston ABC</option>
+									<option>Houston ABC</option>
+								</select>
+								<label class="input__label">Study</label>
+							</div>
+							<div class="input input_select">
+								<select class="input__text input__text_changed">
+									<option selected> All</option>
+									<option>Consectetuer adipiscing</option>
+									<option>Aenean commodo</option>
+									<option>Aenean massa</option>
+									<option>Natoque penatibus</option>
+								</select>
+								<label class="input__label">Sites</label>
+							</div>
+							<button type="submit" class="button button_blocked button_flat">Apply</button>
+						</div>
+					</div>
+					
+					
+					<div class="grid-col grid-col_18">
+						<div class="studies card">
+							<div class="grid-row">
+								<div class="grid-col grid-col_12">
+									<div class="heading heading_3">All users</div>
+								</div>
+								<div class="grid-col grid-col_12 tar">
+									<div class="button button_s button_flat">
+										Actions to selected <i class="material-icons">keyboard_arrow_down</i>
+										<select class="input__text input__text_changed">
+											<option></option>
+											<option>Delete</option>
+											<option>Archive</option>
+											<option>Complete</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="table">
+								<table>
+									<tr>
+										<th class="tal"><label class="checkbox"><input type="checkbox"><i class="material-icons">check</i></label></th>
+										<th class="tal"><a href="#" class="table__sort table__sort_down">Name</a></th>
+										<th class="tal"><a href="#" class="table__sort">Full name</a></th>
+										<th class="tal"><a href="#" class="table__sort">Role</a></th>
+										<th class="tal"><a href="#" class="table__sort">E-mail</a></th>
+										<th class="tar"><a href="#" class="table__sort">Study</a></th>
+										<th class="tar"><a href="#" class="table__sort">Site</a></th>
+									</tr>
+									<tr data-href="user-profile.html">
+										<td class="tal"><label class="checkbox"><input type="checkbox"><i class="material-icons">check</i></label></td>
+										<td class="tal">john.doe</td>
+										<td class="tal">John Doe</td>
+										<td class="tal">PI</td>
+										<td class="tal">john.doe@gmail.com</td>
+										<td class="tar">2</td>
+										<td class="tar">1</td>
+									</tr>
+									<tr data-href="user-profile.html">
+										<td class="tal"><label class="checkbox"><input type="checkbox"><i class="material-icons">check</i></label></td>
+										<td class="tal">john.doe</td>
+										<td class="tal">John Doe</td>
+										<td class="tal">PI</td>
+										<td class="tal">john.doe@gmail.com</td>
+										<td class="tar">1</td>
+										<td class="tar">1</td>
+									</tr>
+									<tr data-href="user-profile.html">
+										<td class="tal"><label class="checkbox"><input type="checkbox"><i class="material-icons">check</i></label></td>
+										<td class="tal">john.doe</td>
+										<td class="tal">John Doe</td>
+										<td class="tal">PI</td>
+										<td class="tal">john.doe@gmail.com</td>
+										<td class="tar">–</td>
+										<td class="tar">–</td>
+									</tr>
+									<tr data-href="user-profile.html">
+										<td class="tal"><label class="checkbox"><input type="checkbox"><i class="material-icons">check</i></label></td>
+										<td class="tal">john.doe</td>
+										<td class="tal">John Doe</td>
+										<td class="tal">PI</td>
+										<td class="tal">john.doe@gmail.com</td>
+										<td class="tar">–</td>
+										<td class="tar">–</td>
+									</tr>
+									<tr data-href="user-profile.html">
+										<td class="tal"><label class="checkbox"><input type="checkbox"><i class="material-icons">check</i></label></td>
+										<td class="tal">john.doe</td>
+										<td class="tal">John Doe</td>
+										<td class="tal">PI</td>
+										<td class="tal">john.doe@gmail.com</td>
+										<td class="tar">–</td>
+										<td class="tar">–</td>
+									</tr>
+									<tr data-href="user-profile.html">
+										<td class="tal"><label class="checkbox"><input type="checkbox"><i class="material-icons">check</i></label></td>
+										<td class="tal">john.doe</td>
+										<td class="tal">John Doe</td>
+										<td class="tal">PI</td>
+										<td class="tal">john.doe@gmail.com</td>
+										<td class="tar">–</td>
+										<td class="tar">–</td>
+									</tr>
+									<tr data-href="user-profile.html">
+										<td class="tal"><label class="checkbox"><input type="checkbox"><i class="material-icons">check</i></label></td>
+										<td class="tal">john.doe</td>
+										<td class="tal">John Doe</td>
+										<td class="tal">PI</td>
+										<td class="tal">john.doe@gmail.com</td>
+										<td class="tar">–</td>
+										<td class="tar">–</td>
+									</tr>
+									<tr data-href="user-profile.html">
+										<td class="tal"><label class="checkbox"><input type="checkbox"><i class="material-icons">check</i></label></td>
+										<td class="tal">john.doe</td>
+										<td class="tal">John Doe</td>
+										<td class="tal">PI</td>
+										<td class="tal">john.doe@gmail.com</td>
+										<td class="tar">–</td>
+										<td class="tar">–</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+				
+				
+			<footer class="page-footer">
+			</footer>
+		</div>
+		
+		
+		<script src="js/jquery-3.2.0.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

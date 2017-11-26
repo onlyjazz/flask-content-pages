@@ -1,0 +1,169 @@
+/**/
+/* text */
+/**/
+.text-link_blue {
+	color: #673ab7;
+}
+
+
+/**/
+/* forms */
+/**/
+.input__text:focus {
+	border-bottom-color: #673ab7;
+	box-shadow: 0 1px 0 0 #673ab7;
+}
+.input__text:focus + .input__label {
+	color: #673ab7;
+}
+.checkbox input:checked + i {
+	border-color: #673ab7;
+	background-color: #673ab7;
+	opacity: 1;
+}
+
+
+/**/
+/* button */
+/**/
+.button {
+	background-color: #673ab7;
+}
+.button:hover {
+	background-color: #5E35B1;
+}
+.button_flat {
+	background: #FAFAFA;
+	color: #673ab7;
+}
+.button_flat:hover {
+	background-color: #F5F5F5;
+	color: #673ab7;
+}
+.button_red {
+	background-color: #F44336;
+}
+.button_red:hover {
+	background-color: #E53935;
+}
+.button_green {
+	background-color: #4CAF50;
+}
+.button_green:hover {
+	background-color: #43A047;
+}
+
+
+/**/
+/* page */
+.page-header {
+	background-color: #5E35B1;
+}
+.page-aside::before {
+	background-color: #5E35B1;
+}
+
+
+
+/*----------------------------------------------*/
+/*                    HEADER                    */
+/*----------------------------------------------*/
+
+/**/
+/* top nav */
+/**/
+.top-nav__count {
+	box-shadow: 0 0 0 1px #5E35B1;
+}
+
+
+
+/*----------------------------------------------*/
+/*                    CONTENT                   */
+/*----------------------------------------------*/
+
+/**/
+/* card */
+/**/
+.card__edit:hover {
+	color: #673ab7;
+}
+
+
+/**/
+/* steps */
+/**/
+.steps__item_passed i {
+	background-color: #673ab7;
+}
+.steps__item_active i {
+	background-color: #673ab7;
+}
+
+
+/**/
+/* table */
+/**/
+.table th {
+	padding: 14px 0 14px 24px;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 500;
+	color: rgba(0,0,0,0.54);
+}
+.table th:last-child {
+	padding-right: 24px;
+}
+.table td {
+	padding: 14px 0 14px 24px;
+	border-top: 1px solid #eee;
+	font-size: 13px;
+	line-height: 18px;
+	transition-duration: 0.225s;
+}
+.table td:last-child {
+	padding-right: 24px;
+}
+.table tr:hover td {
+	background-color: #F5F5F5;
+}
+.table .table__sort {
+	position: relative;
+	padding-right: 10px;
+}
+.table .table__sort_up,
+.table .table__sort_down {
+	color: rgba(0,0,0,0.87);
+}
+.table .table__sort_up::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 0;
+	margin-top: -1.5px;
+	border-right: 3px solid transparent;
+	border-bottom: 3px solid;
+	border-left: 3px solid transparent;
+}
+.table .table__sort_down::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 0;
+	margin-top: -1.5px;
+	border-top: 3px solid;
+	border-right: 3px solid transparent;
+	border-left: 3px solid transparent;
+}
+
+
+
+/*----------------------------------------------*/
+/*                    FOOTER                    */
+/*----------------------------------------------*/
+
+/**/
+/* copyrights */
+/**/
+
+

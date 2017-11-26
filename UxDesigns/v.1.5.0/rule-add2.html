@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Clear Clinica</title>
+		
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+		
+		
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	
+	<body>		
+		<div class="page">
+			<header class="page-header">
+				<div class="grid-row">
+					<div class="grid-col grid-col_12">
+						<div class="logo">Clear Clinica</div>
+					</div>
+					<div class="grid-col grid-col_12 tar fs0">
+						<div class="top-nav">
+							<div class="top-nav__item">
+								<a href="#" class="top-nav__link material-icons">notifications</a>
+								<i class="top-nav__count">3</i>
+							</div>
+							<div class="top-nav__item">
+								<a href="#" class="top-nav__link material-icons">menu</a>
+								<div class="top-nav__drop">
+									<a href="#">Profile</a>
+									<a href="#" data-ref="#popup-settings" class="js-popup-opener">Settings</a>
+									<a href="#">Help and Support</a>
+									<a href="index.html">Logout</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+						
+			
+			<aside class="page-aside">
+				<div class="main-nav">
+					<a href="studies.html" class="main-nav__item"><i class="material-icons">dashboard</i>Studies</a>
+					<hr class="main-nav__sep">
+					<a href="sites.html" class="main-nav__item main-nav__item_active"><i class="material-icons">assignment</i>Sites</a>
+					<hr class="main-nav__sep">
+					<a href="users.html" class="main-nav__item"><i class="material-icons">people</i>Users</a>
+					<hr class="main-nav__sep">
+					<a href="rules.html" class="main-nav__item"><i class="material-icons">swap_calls</i>Rules</a>
+				</div>
+			</aside>
+						
+			
+			<main class="page-content">
+				<div class="bread-crumbs">
+					<a href="sites.html" class="text-link text-link_blue">Rules</a>
+					&nbsp;/&nbsp;
+					<span>Add alert rule</span>
+				</div>
+				
+				
+				<div class="page-title">
+					<h1 class="heading heading_1">Add alert rule</h1>
+				</div>
+				
+				
+				<form action="#" class="new-study">
+					<div class="card">
+						<div class="heading heading_3">Name</div>
+						<div class="grid-row">
+							<div class="grid-col grid-col_24">
+								<div class="input">
+									<input type="text" class="input__text">
+									<label class="input__label">Name</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="card">
+						<div class="heading heading_3">Formulae</div>
+						<div class="grid-row">
+							<div class="grid-col grid-col_8">
+								<div class="input">
+									<input type="text" class="input__text">
+									<label class="input__label">Subject</label>
+								</div>
+							</div>
+							<div class="grid-col grid-col_8">
+								<div class="input">
+									<input type="text" class="input__text">
+									<label class="input__label">Metric</label>
+								</div>
+							</div>
+							<div class="grid-col grid-col_8">
+								<div class="input">
+									<input type="text" class="input__text">
+									<label class="input__label">Condition</label>
+								</div>
+							</div>
+							<div class="grid-col grid-col_12">
+								<div class="input">
+									<input type="text" class="input__text">
+									<label class="input__label">Treshold</label>
+								</div>
+							</div>
+							<div class="grid-col grid-col_12">
+								<div class="input">
+									<input type="text" class="input__text">
+									<label class="input__label">Expiry</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="card">
+						<div class="heading heading_3">General definitions</div>
+						<div class="grid-row">
+							<div class="grid-col grid-col_12">
+								<div class="input">
+									<input type="text" class="input__text">
+									<label class="input__label">Definition name</label>
+								</div>
+							</div>
+							<div class="grid-col grid-col_12">
+								<div class="input">
+									<input type="text" class="input__text">
+									<label class="input__label">Expression</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="card">
+						<div class="heading heading_3">Protocol violation definitions</div>
+						<div class="grid-row">
+							<div class="grid-col grid-col_8">
+								<div class="input">
+									<input type="text" class="input__text">
+									<label class="input__label">Protocol ref</label>
+								</div>
+							</div>
+							<div class="grid-col grid-col_8">
+								<div class="input">
+									<input type="text" class="input__text">
+									<label class="input__label">Event name</label>
+								</div>
+							</div>
+							<div class="grid-col grid-col_8">
+								<div class="input">
+									<input type="text" class="input__text">
+									<label class="input__label">CRF Name</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="card">
+						<div class="heading heading_3">Playbook</div>
+						<div class="grid-row">
+							<div class="grid-col grid-col_24">
+								<div class="input">
+									<input type="text" class="input__text">
+									<label class="input__label">Playbook</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="tar">
+						<button type="submit" class="button button_raised button_green">Add new rule</button>
+					</div>
+				</form>
+			</main>
+		</div>
+		
+		
+		<script src="js/jquery-3.2.0.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

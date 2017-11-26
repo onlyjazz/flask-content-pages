@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Clear Clinica</title>
+		
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+		
+		
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	
+	<body>		
+		<div class="page">
+			<header class="page-header">
+				<div class="grid-row">
+					<div class="grid-col grid-col_12">
+						<div class="logo">Clear Clinica</div>
+					</div>
+					<div class="grid-col grid-col_12 tar fs0">
+						<div class="top-nav">
+							<div class="top-nav__item">
+								<a href="#" class="top-nav__link material-icons">notifications</a>
+								<i class="top-nav__count">3</i>
+							</div>
+							<div class="top-nav__item">
+								<a href="#" class="top-nav__link material-icons">menu</a>
+								<div class="top-nav__drop">
+									<a href="#">Profile</a>
+									<a href="#" data-ref="#popup-settings" class="js-popup-opener">Settings</a>
+									<a href="#">Help and Support</a>
+									<a href="index.html">Logout</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+						
+			
+			<aside class="page-aside">
+				<div class="main-nav">
+					<a href="studies.html" class="main-nav__item"><i class="material-icons">dashboard</i>Studies</a>
+					<hr class="main-nav__sep">
+					<a href="sites.html" class="main-nav__item"><i class="material-icons">assignment</i>Sites</a>
+					<hr class="main-nav__sep">
+					<a href="users.html" class="main-nav__item"><i class="material-icons">people</i>Users</a>
+					<hr class="main-nav__sep">
+					<a href="rules.html" class="main-nav__item main-nav__item_active"><i class="material-icons">swap_calls</i>Rules</a>
+				</div>
+			</aside>
+						
+			
+			<main class="page-content">
+				<div class="bread-crumbs">
+					<a href="sites.html" class="text-link text-link_blue">Rules</a>
+					&nbsp;/&nbsp;
+					<span>Analytics rule profile</span>
+				</div>
+				
+				
+				<div class="page-title">
+					<div class="button button_green">
+						Actions <i class="material-icons">keyboard_arrow_down</i>
+						<select class="input__text input__text_changed">
+							<option></option>
+							<option>Delete</option>
+							<option>Archive</option>
+							<option>Complete</option>
+						</select>
+					</div>
+					<h1 class="heading heading_1">Capsule count missmatch</h1>
+				</div>
+				
+				
+				<div class="grid-row">
+					<div class="grid-col grid-col_24">
+						<div class="charts card">
+							<div class="grid-row">
+								<div class="grid-col grid-col_12">
+									<div class="card__heading heading heading_3">Active layout and view</div>
+								</div>
+							</div>
+							<div class="charts__carousel">
+								<div class="charts__item">
+									<div class="heading heading_5">chart name 1</div>
+									<div class="charts__pic">
+										<div id="colchart" style="width: 100%; height: 300px;"></div>
+									</div>
+									<div class="input input_select">
+										<select class="input__text input__text_changed">
+											<option>Blue</option>
+											<option>Red</option>
+											<option>Green</option>
+										</select>
+										<label class="input__label">High color</label>
+									</div>
+								</div>
+								<div class="charts__item">
+									<div class="heading heading_5">chart name 2</div>
+									<div class="charts__pic">
+										<div id="piechart" style="width: 100%; height: 300px;"></div>
+									</div>
+									<div class="input input_select">
+										<select class="input__text input__text_changed">
+											<option>Blue</option>
+											<option>Red</option>
+											<option>Green</option>
+										</select>
+										<label class="input__label">High color</label>
+									</div>
+								</div>
+								<div class="charts__item">
+									<div class="heading heading_5">chart name 3</div>
+									<div class="charts__pic">
+										<div id="colchart2" style="width: 100%; height: 300px;"></div>
+									</div>
+									<div class="input input_select">
+										<select class="input__text input__text_changed">
+											<option>Blue</option>
+											<option>Red</option>
+											<option>Green</option>
+										</select>
+										<label class="input__label">High color</label>
+									</div>
+								</div>
+								<div class="charts__item">
+									<div class="heading heading_5">chart name 4</div>
+									<div class="charts__pic">
+										<div id="piechart2" style="width: 100%; height: 300px;"></div>
+									</div>
+									<div class="input input_select">
+										<select class="input__text input__text_changed">
+											<option>Blue</option>
+											<option>Red</option>
+											<option>Green</option>
+										</select>
+										<label class="input__label">High color</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					<div class="grid-col grid-col_24">
+						<div class="filters filters_alt card">
+							<div class="heading heading_3">Variables fields filter</div>
+							<div class="grid-row">
+								<div class="grid-col grid-col_8">
+									<div class="input input_select">
+										<select class="input__text input__text_changed">
+											<option selected=""> All</option>
+											<option>Active</option>
+											<option>Inactive</option>
+										</select>
+										<label class="input__label">Param 1</label>
+									</div>				
+								</div>
+								<div class="grid-col grid-col_8">
+									<div class="input input_select">
+										<select class="input__text input__text_changed">
+											<option selected=""> All</option>
+											<option>Active</option>
+											<option>Inactive</option>
+										</select>
+										<label class="input__label">Param 2</label>
+									</div>								
+								</div>
+								<div class="grid-col grid-col_8">
+									<button type="submit" class="button button_blocked button_flat">Apply</button>								
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					<div class="grid-col grid-col_8">
+						<div class="filters card">
+							<div class="heading heading_3">X variable</div>
+							<div class="input input_select">
+								<select class="input__text">
+									<option selected></option>
+									<option>Option 1</option>
+									<option>Option 2</option>
+									<option>Option 3</option>
+								</select>
+								<label class="input__label">Fields</label>
+							</div>
+							<div class="input input_select">
+								<select class="input__text">
+									<option selected></option>
+									<option>Option 1</option>
+									<option>Option 2</option>
+									<option>Option 3</option>
+								</select>
+								<label class="input__label">Conditions</label>
+							</div>
+							<div class="grid-row">
+								<div class="grid-col grid-col_12">
+									<div class="input input_select">
+										<select class="input__text">
+											<option selected></option>
+											<option>Option 1</option>
+											<option>Option 2</option>
+											<option>Option 3</option>
+										</select>
+										<label class="input__label">Min value</label>
+									</div>
+								</div>
+								<div class="grid-col grid-col_12">
+									<div class="input input_select">
+										<select class="input__text">
+											<option selected></option>
+											<option>Option 1</option>
+											<option>Option 2</option>
+											<option>Option 3</option>
+										</select>
+										<label class="input__label">Max value</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					<div class="grid-col grid-col_8">
+						<div class="filters card">
+							<div class="heading heading_3">Y variable</div>
+							<div class="input input_select">
+								<select class="input__text">
+									<option selected></option>
+									<option>Option 1</option>
+									<option>Option 2</option>
+									<option>Option 3</option>
+								</select>
+								<label class="input__label">Fields</label>
+							</div>
+							<div class="input input_select">
+								<select class="input__text">
+									<option selected></option>
+									<option>Option 1</option>
+									<option>Option 2</option>
+									<option>Option 3</option>
+								</select>
+								<label class="input__label">Conditions</label>
+							</div>
+							<div class="input input_select">
+								<select class="input__text">
+									<option selected></option>
+									<option>Option 1</option>
+									<option>Option 2</option>
+									<option>Option 3</option>
+								</select>
+								<label class="input__label">Value</label>
+							</div>
+						</div>
+						
+						<div class="filters card">
+							<button type="button" class="card__close material-icons js-remove-variable">close</button>
+							<div class="heading heading_3">Y variable</div>
+							<div class="input input_select">
+								<select class="input__text">
+									<option selected></option>
+									<option>Option 1</option>
+									<option>Option 2</option>
+									<option>Option 3</option>
+								</select>
+								<label class="input__label">Fields</label>
+							</div>
+							<div class="input input_select">
+								<select class="input__text">
+									<option selected></option>
+									<option>Option 1</option>
+									<option>Option 2</option>
+									<option>Option 3</option>
+								</select>
+								<label class="input__label">Conditions</label>
+							</div>
+							<div class="input input_select">
+								<select class="input__text">
+									<option selected></option>
+									<option>Option 1</option>
+									<option>Option 2</option>
+									<option>Option 3</option>
+								</select>
+								<label class="input__label">Value</label>
+							</div>
+						</div>
+						
+						<a href="#" class="button button_green button_blocked js-add-variable">Add Y variable</a>
+					</div>
+					
+					
+					<div class="grid-col grid-col_8">
+						<div class="filters card">
+							<div class="heading heading_3">Z variable</div>
+							<div class="input input_select">
+								<select class="input__text">
+									<option selected></option>
+									<option>Option 1</option>
+									<option>Option 2</option>
+									<option>Option 3</option>
+								</select>
+								<label class="input__label">Fields</label>
+							</div>
+							<div class="input input_select">
+								<select class="input__text">
+									<option selected></option>
+									<option>Option 1</option>
+									<option>Option 2</option>
+									<option>Option 3</option>
+								</select>
+								<label class="input__label">Conditions</label>
+							</div>
+							<div class="input input_select">
+								<select class="input__text">
+									<option selected></option>
+									<option>Option 1</option>
+									<option>Option 2</option>
+									<option>Option 3</option>
+								</select>
+								<label class="input__label">Value</label>
+							</div>
+						</div>
+						
+						<div class="filters card">
+							<button type="button" class="card__close material-icons js-remove-variable">close</button>
+							<div class="heading heading_3">Z variable</div>
+							<div class="input input_select">
+								<select class="input__text">
+									<option selected></option>
+									<option>Option 1</option>
+									<option>Option 2</option>
+									<option>Option 3</option>
+								</select>
+								<label class="input__label">Fields</label>
+							</div>
+							<div class="input input_select">
+								<select class="input__text">
+									<option selected></option>
+									<option>Option 1</option>
+									<option>Option 2</option>
+									<option>Option 3</option>
+								</select>
+								<label class="input__label">Conditions</label>
+							</div>
+							<div class="input input_select">
+								<select class="input__text">
+									<option selected></option>
+									<option>Option 1</option>
+									<option>Option 2</option>
+									<option>Option 3</option>
+								</select>
+								<label class="input__label">Value</label>
+							</div>
+						</div>
+						
+						<a href="#" class="button button_green button_blocked js-add-variable">Add Z variable</a>
+					</div>
+					
+					
+					<div class="grid-col grid-col_12">
+						<div class="comments card">
+							<div class="heading heading_3">Playbook</div>
+							
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+							<hr>
+							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<hr>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+						</div>
+					</div>
+					
+					
+					<div class="grid-col grid-col_12">
+						<div class="comments card">
+							<div class="heading heading_3">5 comments</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+							<p class="comments__author tar">by <a href="#" class="text-link text-link_blue">John Doe</a> 5 hours ago</p>
+							<hr>
+							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<p class="comments__author tar">by <a href="#" class="text-link text-link_blue">John Doe</a> 8 hours ago</p>
+							<hr>
+							<div class="comments__add">
+								<div class="input">
+									<input type="text" class="input__text">
+									<label class="input__label">Text of the comment</label>
+								</div>
+								<div class="tar"><button type="submit" class="button button_flat">Add comment</button></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+		
+		
+		<script src="https://www.gstatic.com/charts/loader.js"></script>
+		<script src="js/jquery-3.2.0.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/main.js"></script>
+		<script>
+			google.charts.load('current', {'packages':['corechart']});
+			google.charts.setOnLoadCallback(drawChart);
+			
+			function drawChart()
+			{
+				var data = google.visualization.arrayToDataTable([
+				['Task', 'Hours per Day'],
+				['Work',     9],
+				['Eat',      2],
+				['Watch TV', 2],
+				['Sleep',    7]
+				]);
+				
+				var options = {
+					is3D: true,
+					legend: 'none',
+					colors:['#4FC3F7', '#03A9F4', '#0288D1', '#01579B']
+				};
+				
+				var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+				chart.draw(data, options);
+				chart = new google.visualization.PieChart(document.getElementById('piechart2'));
+				chart.draw(data, options);
+				
+				
+				data = new google.visualization.DataTable();
+				data.addColumn('timeofday', 'Time of Day');
+				data.addColumn('number', 'Motivation Level');
+				
+				data.addRows([
+				[{v: [8, 0, 0], f: '8 am'}, 1],
+				[{v: [9, 0, 0], f: '9 am'}, 2],
+				[{v: [10, 0, 0], f:'10 am'}, 3],
+				[{v: [11, 0, 0], f: '11 am'}, 4],
+				[{v: [12, 0, 0], f: '12 pm'}, 5],
+				[{v: [13, 0, 0], f: '1 pm'}, 6],
+				[{v: [14, 0, 0], f: '2 pm'}, 7],
+				[{v: [15, 0, 0], f: '3 pm'}, 8],
+				[{v: [16, 0, 0], f: '4 pm'}, 9],
+				[{v: [17, 0, 0], f: '5 pm'}, 10],
+				]);
+				
+				options = {
+					legend: 'none',
+					colors:['#4FC3F7', '#03A9F4', '#0288D1', '#01579B']
+				};
+				
+				chart = new google.visualization.ColumnChart(document.getElementById('colchart'));
+				chart.draw(data, options);
+				chart = new google.visualization.ColumnChart(document.getElementById('colchart2'));
+				chart.draw(data, options);
+			}
+		</script>
+	</body>
+</html>

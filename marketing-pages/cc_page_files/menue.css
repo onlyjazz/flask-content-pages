@@ -13,8 +13,7 @@ height: 100%;
 margin:0;
 padding: 0;
 }
-body{
-max-width: 1366px;
+body {
 width:100%;
 margin:auto;
 font-family: 'Roboto Condensed', sans-serif;
@@ -76,7 +75,8 @@ clear: both;
 .title{
 max-width: 815px;
 width: 100%;
-margin: auto 0 auto auto;
+/*margin: auto 0 auto auto;*/
+margin-left: 220px;
 padding-top: 120px;
 padding-bottom: 60px;
 }
@@ -356,7 +356,6 @@ font-size: 25px;
 
 #big_one .top_image img {
     width: 100%;
-    max-width: 1366px;
 }
 #big_one .top_title {
     -webkit-box-pack: center;

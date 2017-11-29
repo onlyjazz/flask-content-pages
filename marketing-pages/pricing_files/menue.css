@@ -1,0 +1,3722 @@
+@font-face {
+font-family: MyriadPro-Bold;
+src: url("../fonts/MyriadPro-Bold.otf") format("truetype");
+}
+@font-face {
+font-family: MyriadPro-BoldCond;
+src: url("../fonts/MyriadPro-BoldCond.otf");
+}
+@font-face {
+font-family: MyriadPro-BoldCondIt;
+src: url("../fonts/MyriadPro-BoldCondIt.otf");
+}
+@font-face {
+font-family: MyriadPro-BoldIt;
+src: url("../fonts/MyriadPro-BoldIt.otf");
+}
+@font-face {
+font-family: MyriadPro-Cond;
+src: url("../fonts/MyriadPro-Cond.otf");
+}
+@font-face {
+font-family: MyriadPro-CondIt;
+src: url("../fonts/MyriadPro-CondIt.otf");
+}
+@font-face {
+font-family: MyriadPro-It;
+src: url("../fonts/MyriadPro-It.otf");
+}
+@font-face {
+font-family: MyriadPro-Regular;
+src: url("../fonts/MyriadPro-Regular.otf");
+}
+@font-face {
+font-family: MyriadProPro-Semibold;
+src: url("../fonts/MyriadPro-Semibold.otf");
+}
+@font-face {
+font-family: MyriadPro-SemiboldIt;
+src: url("../fonts/MyriadPro-SemiboldIt.otf");
+}
+* {
+margin:0;
+padding: 0;
+}
+
+html,
+body {
+height: 100%;
+margin:0;
+padding: 0;
+}
+body{
+max-width: 1366px;
+width:100%;
+margin:auto;
+font-family: MyriadPro-Regular;
+}
+.header{
+max-width:1366px;
+background: #203949;
+min-height: 42px;
+position: relative;
+width: 100%;
+z-index: 99999;
+}
+.header .logo{
+width: 0;
+height: 0;
+border-right: 465px solid transparent;
+border-top: 269px solid #274355;
+content: '';
+position: absolute;
+top: 42px;
+left: 0;
+}
+.header .logo img{
+position: absolute;
+left: 50px;
+bottom: 210px;
+}
+.header:after{
+content: '';
+display: block;
+clear: both;
+}
+#num{
+float: left;
+border-right: 1px solid #344751;
+padding-top: 13px;
+}
+#cta{
+float: right;
+margin-top: 13px;
+}
+.welcome{
+float: left;
+margin-left: 50px;
+}
+.welcome span{
+font-size: 14px;
+font-weight: 100;
+color: #425863;
+}
+.cta1{
+float: left;
+margin-left: 30px;
+}
+.cta1:hover img,.cta2:hover img{
+  opacity: 0.7;
+}
+.cta2{
+float: right;
+margin-right: 50px;
+}
+
+.number{
+float: right;
+margin-right: 40px;
+}
+.number a{
+font-size: 16px;
+font-weight: 100;
+color: #8f949d;
+}
+#section_1{
+background-image: url(https://www.clearclinica.com/wp-content/uploads/2016/09/1-5.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 100%;
+padding-bottom: 22px;
+}
+div#section_1:after{
+content: '';
+display: block;
+clear: both;
+}
+.title{
+max-width: 815px;
+width: 100%;
+margin: auto 0 auto auto;
+padding-top: 120px;
+padding-bottom: 60px;
+}
+.title:after{
+content: '';
+display: block;
+clear: both;
+}
+.title_1{
+text-align: right;
+font-size: 63px;
+font-weight: normal;
+text-transform: uppercase;
+color: white;
+text-shadow: 2px 2px #1F1F1F;
+padding-right: 50px;
+}
+.title_2{
+text-align: right;
+margin-top: 30px;
+padding-top: 10px;
+font-size: 63px;
+font-weight: normal;
+text-transform: uppercase;
+color: white;
+text-shadow: 2px 2px #1F1F1F;
+padding-right: 50px;
+background: rgba(140, 189, 213, 0.76);
+}
+.title_2 .x10{
+color: #b2d964;
+}
+.process{
+max-width: 690px;
+width: 100%;
+margin: 85px 50px auto auto;
+}
+.process:after{
+content: '';
+display: block;
+clear: both;
+}
+.process ul{
+margin-bottom: 25px;
+}
+.process ul li{
+font-size: 15px;
+color: white;
+padding: 12px 10px 12px 30px;
+margin-top: 8px;
+background: rgba(11, 41, 77, 0.62);
+position: relative;
+}
+.process ul li:before{
+content: '';
+display: block;
+width: 8px;
+height: 8px;
+position: absolute;
+background-image: url(https://www.clearclinica.com/wp-content/uploads/2016/09/point_zps4h7oeznd.png);
+left: 2%;
+top: 15px;
+}
+.video{
+float: left;
+/*text-align: center;
+background: #a8d354;
+padding: 15px 105px 10px;
+border-top: 2px solid #c2e086;
+border-left: 2px solid #b4d96b;
+border-bottom: 2px solid #6f8b37;
+border-right: 2px solid #7fa040;
+cursor: pointer;*/
+}
+.video:hover img,.demo:hover img{
+  opacity: 0.8;
+}
+.demo{
+float: right;
+/*text-align: center;
+background: #ffa200;
+padding: 15px 105px 10px;
+border-top: 2px solid #ffbd4b;
+border-left: 2px solid #ffae22;
+border-bottom: 2px solid #a86b00;
+border-right: 2px solid #c17b00;
+cursor: pointer;*/
+}
+.demo a{
+color: white;
+text-transform: uppercase;
+font-size: 25px;
+}
+div#section_2{
+background-image: url(https://www.clearclinica.com/wp-content/uploads/2016/09/7-3.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 50% 100%;
+}
+div#section_2:after{
+content: '';
+display: block;
+clear: both;
+}
+.benefits h2,.title_3 h2,.title_4 h2,.title_5 h2{
+text-align: center;
+text-transform: uppercase;
+color: #274355;
+font-size: 35px;
+padding-top: 60px;
+letter-spacing: 2px;
+}
+.title_5 h2{
+color:white;
+padding-bottom: 60px;
+}
+.companies{
+width: 48%;
+overflow: hidden;
+float: left;
+}
+.cors{
+width: 48%;
+overflow: hidden;
+float: right;
+}
+.investors{
+clear: both;
+width: 50%;
+margin: auto;
+position: relative;
+top: -45px;
+}
+.image{
+width: 185px;
+height: 185px;
+overflow: hidden;
+border: 5px solid #2698d6;
+border-radius: 230px;
+margin: auto;
+background: #2698d6;
+box-shadow: 4px 5px 12px 0px #505050;
+}
+.image img{
+width: auto;
+height: auto;
+}
+.text{
+width: 215px;
+margin: 25px auto auto auto;
+text-align: center;
+}
+.text h2{
+font-size: 22px;
+color: #274355;
+}
+.text p{
+color: #939393;
+line-height: 22px;
+font-size: 14px;
+}
+.logo_customer {
+	width: 25%;
+	text-align: left;
+	float: left;
+	padding: 10px;
+	margin-left: 2.5%;
+}
+.logo_customer img{
+	width: 40%;
+}
+
+.logo_costomer{
+width: 22%;
+float: left;
+text-align: center;
+margin-left: 3%;
+}
+div#section_3:after,.costomer:after,.partner_logo:after{
+content: '';
+display: block;
+clear: both;
+}
+.partner_logo{
+padding-top: 65px;
+padding-bottom: 65px;
+margin-left: 12%;
+}
+.costomer{
+background-image: url(https://www.clearclinica.com/wp-content/uploads/2016/09/spitak.png);
+border-bottom: 2px solid #eaeaea;
+}
+.overview{
+background-image: url(https://www.clearclinica.com/wp-content/uploads/2016/09/12-1.png);
+background-size: cover;
+background-position: 15%;
+background-repeat: no-repeat;
+}
+#section_4{
+background-image: url(https://www.clearclinica.com/wp-content/uploads/2016/09/23.png);
+background-repeat: no-repeat;
+background-size: cover;
+border-bottom: 3px solid #b2d964;
+}
+div#section_4:after{
+content: '';
+display: block;
+clear: both;
+}
+.ebook_text:after{
+content: '';
+display: block;
+clear: both;
+}
+.ebook_text{
+max-width: 750px;
+width: 100%;
+margin: auto;
+padding-bottom: 40px;
+}
+.ebook{
+width: 38%;
+float: left;
+}
+.textttt{
+width: 61%;
+float: left;
+color: white;
+font-size: 15px;
+}
+.textttt span{
+font-size: 25px;
+}
+.textttt ul{
+padding-top:40px;
+padding-left: 13px;
+text-align: left;
+}
+.textttt ul li{
+font-size: 25px;
+position: relative;
+}
+.textttt ul li:before{
+content: '';
+display: block;
+width: 8px;
+height: 8px;
+position: absolute;
+background-image: url(https://www.clearclinica.com/wp-content/uploads/2016/09/point_zps4h7oeznd.png);
+left: -3%;
+top: 13px;
+}
+.download{
+float: left;
+/*text-align: center;
+background: #a8d354;
+padding: 15px 105px 10px;
+border-top: 2px solid #c2e086;
+border-left: 2px solid #b4d96b;
+border-bottom: 2px solid #6f8b37;
+border-right: 2px solid #7fa040;
+cursor: pointer;*/
+margin-top: 40px;
+}
+.download:hover img{
+  opacity: 0.8;
+}
+.download a{
+color: white;
+text-transform: uppercase;
+font-size: 25px;
+}
+
+/*Overviw css Mher*/
+.cont_title{
+  color: #2698d6;
+  font-size: 35px;
+}
+.cont_text{
+  font-size: 20px;
+  color: #526471;
+  line-height: 30px;
+}
+
+
+#big_one .top_image img {
+    width: 100%;
+    max-width: 1366px;
+}
+#big_one .top_title {
+    -webkit-box-pack: center;
+            justify-content: center;
+    -ms-grid-row-align: center;
+        align-self: center;
+    width: 100%;
+    text-align: center;
+    margin-top: -90px;
+}
+#big_one .top_title p {
+    color: #fff;
+    font-size: 35px;
+}
+#big_one .s1_top {
+    display: -webkit-box;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#big_one .s1_top_img {
+    -ms-grid-row-align: center;
+        align-self: center;
+    margin-right: 10px;
+}
+#big_one .content_section_1 {
+    background: url('https://www.clearclinica.com/wp-content/uploads/2016/09/spitak.png');
+    padding-top: 90px;
+}
+#big_one .s1_top_content {
+    -ms-grid-row-align: center;
+        align-self: center;
+    width: 50%;
+    margin-left: 10px;
+}
+#big_one .inf_cont {
+    width: 88%;
+    margin-top: 50px;
+}
+#big_one .s1_bot_content .cont_text {
+    line-height: 25px;
+    padding-top: 25px;
+}
+#big_one .s1_bot_img2 img {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#big_one .s1_bot_img1 {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 16% !important;
+    text-align: center;
+    -ms-grid-row-align: center;
+        align-self: center;
+    border-radius: 50%;
+    box-shadow: 5px 5px 20px -1px rgba(0,0,0,0.52);
+}
+#big_one .s1_bot_img1 img {
+    padding: 30px;
+}
+#big_one .s1_bot {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: end;
+            justify-content: flex-end;
+}
+#big_one .cloud_sec {
+    display: -webkit-box;
+    display: flex;
+    width: 92%;
+    border-top-left-radius: 125px;
+    border-bottom-left-radius: 125px;
+    background-color: #fff;
+    margin-top: 50px;
+    box-shadow: -5px -7px 12px 1px #8f949d;
+}
+#big_one .s1_bot_content {
+    width: 55%;
+    -ms-grid-row-align: center;
+        align-self: center;
+}
+
+#big_one .s1_bot_img2 {
+  margin-left: 25px;
+}
+#big_one .content_section_2 {
+    background: url('https://www.clearclinica.com/wp-content/uploads/2016/09/seri.png');
+}
+
+#big_one .s2_top {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: start;
+            justify-content: flex-start;
+}
+
+#big_one .cloud_sec2 {
+    display: -webkit-box;
+    display: flex;
+    width: 94%;
+    border-top-right-radius: 125px;
+    border-bottom-right-radius: 125px;
+    background-color: #fff;
+    box-shadow: 5px -7px 12px 1px #8f949d;
+    margin-top: -7px;
+}
+#big_one .s2_bot_img1 {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 16% !important;
+    text-align: center;
+    -ms-grid-row-align: center;
+        align-self: center;
+    border-radius: 50%;
+    box-shadow: 5px 5px 20px -1px rgba(0,0,0,0.52);
+}
+
+#big_one .s2_bot_img1 img {
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+#big_one .s2_top_content {
+    width: 56%;
+    -ms-grid-row-align: center;
+        align-self: center;
+    text-align: right;
+    padding-left: 50px;
+}
+
+#big_one .s2_bot_img2 {
+    width: 21%;
+    text-align: right;
+}
+
+#big_one .s2_bot_img2 img {padding-top: 15px;padding-bottom: 15px;}
+
+#big_one .s2_bot_content .cont_text {
+    -ms-grid-row-align: center;
+        align-self: center;
+        width: 70%;
+}
+#big_one .s2_bot {
+    display: -webkit-box;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#big_one .s2_bot_img {
+    width: 50%;
+    text-align: right;
+}
+
+#big_one .s2_bot .inf_cont {
+  margin: auto;
+  margin-top: 25px !important;
+  display: -webkit-box;
+  display: flex;
+}
+
+#big_one .s2_bot .cont_title {
+    padding-left: 6%;
+}
+#big_one .s3_top {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: start;
+            justify-content: flex-start;
+}
+
+#big_one .cloud_sec3 {
+    display: -webkit-box;
+    display: flex;
+    width: 94%;
+    border-top-right-radius: 125px;
+    border-bottom-right-radius: 125px;
+    background-color: #fff;
+    box-shadow: 8px -7px 12px 1px #8f949d;
+    margin-top: -7px;
+}
+
+#big_one .s3_top_img2 {
+    width: 21%;
+    text-align: right;
+}
+
+#big_one .s3_top_img2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#big_one .s3_top_content {
+    width: 56%;
+    -ms-grid-row-align: center;
+        align-self: center;
+    text-align: right;
+    padding-left: 50px;
+}
+
+#big_one .s3_top_img1 {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 16% !important;
+    text-align: center;
+    -ms-grid-row-align: center;
+        align-self: center;
+    border-radius: 50%;
+    box-shadow: 5px 5px 20px -1px rgba(0,0,0,0.52);
+}
+
+#big_one .s3_top_img1 img {
+    padding-top: 30px;
+    padding-bottom: 42px;
+}
+#big_one .s3_top_content .cont_text {
+    padding-top: 20px;
+}
+#big_one .content_section_3 {
+    background: url('https://www.clearclinica.com/wp-content/uploads/2016/09/spitak.png');
+}
+#big_one .cloud_sec4 {
+    display: -webkit-box;
+    display: flex;
+    width: 92%;
+    border-top-left-radius: 125px;
+    border-bottom-left-radius: 125px;
+    background-color: #fff;
+    box-shadow: -5px -7px 12px 1px #8f949d;
+}
+#big_one .s4_top {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: end;
+            justify-content: flex-end;
+}
+#big_one .s4_top_img1 {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 16% !important;
+    text-align: center;
+    -ms-grid-row-align: center;
+        align-self: center;
+    border-radius: 50%;
+    box-shadow: 5px 5px 20px -1px rgba(0,0,0,0.52);
+}
+#big_one .s4_top_img1 img {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#big_one .s4_top_content {
+    width: 55%;
+    -ms-grid-row-align: center;
+        align-self: center;
+}
+#big_one .s4_top_img2 img {
+    padding: 15px 0 15px 0;
+}
+#big_one .content_section_4 {
+    background: url('https://www.clearclinica.com/wp-content/uploads/2016/09/kapuyt.png');
+}
+
+#big_one .s4_bot {
+    display: -webkit-box;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+#big_one .s4_bot_img img {
+    max-width: 514px;
+}
+#big_one .s4_bot_content {
+    -ms-grid-row-align: center;
+        align-self: center;
+        width: 50%;
+}
+#big_one .s4_top_img2 {
+    margin-left: 30px;
+}
+#big_one .cont_text a {
+    color: #3691d8;
+}
+#big_one .s2_top .cont_text {
+    line-height: 25px;
+    padding-top: 25px;
+}
+
+#big_one .s4_top .cont_text {
+    padding-top: 20px;
+    line-height: 25px;
+}
+#big_one .try_demo {
+    display: -webkit-box;
+    display: flex;
+    margin: auto;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    background: url(https://www.clearclinica.com/wp-content/uploads/2016/09/spitak.png);
+}
+
+#big_one .try_demo .cta1 {
+    margin: auto;
+}
+
+#big_one .try_demo a#cta_button_2198284_458d25aa-7f42-49f1-b02a-b9f8934dba5d {
+    font-size: 20px;
+}
+
+/*** 101 Mher css ***/
+
+.acc_title_font{
+  font-size: 30px;
+  color: #274355;
+}
+
+#page_101 .top_image img {
+    width: 100%;
+    max-width: 1366px;
+}
+#page_101 .top_title {
+    -webkit-box-pack: center;
+            justify-content: center;
+    -ms-grid-row-align: center;
+        align-self: center;
+    width: 100%;
+    text-align: center;
+    margin-top: -90px;
+}
+#page_101 .top_title  {
+    color: #fff;
+    font-size: 35px;
+}
+#page_101 .top_content {margin-top: 40px;background: url('https://www.clearclinica.com/wp-content/uploads/2016/09/seri.png');}
+
+#page_101 .top_content_title.cont_title {
+    text-align: center;
+    padding-top: 70px;
+}
+#page_101 .top_content_text {
+    text-align: center;
+    width: 55%;
+    margin: auto;
+    font-size: 24px;
+    color: #274355;
+    padding-top: 53px;
+}
+#page_101 .user_acc {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  background-color: #fff;
+  border-top-left-radius: 125px;
+  border-bottom-left-radius: 125px;
+  box-shadow: -5px -5px 5px 0px rgba(198,198,198,1);
+}
+#page_101 .havayi {
+    width: 92%;
+    padding-bottom: 35px;
+}
+#page_101 .accord_1 {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: end;
+            justify-content: flex-end;
+    flex-wrap: wrap;
+}
+#page_101 .user_acc_img {
+    background-color: #2698d6;
+    border-radius: 50%;
+    width: 13%;
+    text-align: center;
+    margin: 20px;
+}
+#page_101 .user_acc_img img {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#page_101 .acc_content {
+    width: 56%;
+    padding-top: 15px;
+    margin-left: 35px;
+}
+
+#page_101 .user_acc_short {
+    font-size: 20px;
+    color: #597383;
+    padding-top: 20px;
+}
+
+#page_101 .user_more {
+  text-align: right;
+  color: #2698d6;
+  cursor: pointer;
+  padding-right: 10px;
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+#page_101 .accord_section {
+    margin-top: 60px;
+}
+#page_101 .user_acc_info ul {
+    font-weight: bold;
+    font-size: 20px;
+    color: #597383;
+}
+#page_101 .user_acc_info ul ul {
+    font-weight: 400;
+    padding-left: 35px;
+    line-height: 40px;
+    padding-top: 15px;
+}
+#page_101 .user_acc_info {
+    width: 75%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#page_101 .user_acc_info ul {
+    list-style-image: url(https://www.clearclinica.com/wp-content/uploads/2016/09/6-1.png);
+}
+#page_101 .user_acc_info ul ul {
+    font-weight: 400;
+    padding-left: 35px;
+    line-height: 40px;
+    padding-top: 15px;
+    width: 74%;
+}
+#page_101 .user_acc_info ul ul {
+    font-size: 20px;
+    color: #597383;
+    list-style-image: url(https://www.clearclinica.com/wp-content/uploads/2016/09/7-1.png);
+}
+/*2nd acc*/
+#page_101 .accord_2 {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: start;
+            justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+#page_101 .clinica_acc {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    background-color: #fff;
+    border-top-right-radius: 125px;
+    border-bottom-right-radius: 125px;
+    box-shadow: 2px -5px 5px 0px rgba(198,198,198,1);
+    -webkit-box-pack: end;
+            justify-content: flex-end;
+}
+
+#page_101 .clinica_acc_img {
+    background-color: #93ba46;
+    border-radius: 50%;
+    width: 13%;
+    text-align: center;
+    margin: 20px;
+}
+
+#page_101 .clinica_content {
+    width: 54%;
+    padding-top: 15px;
+    margin-left: 35px;
+}
+
+#page_101 .clinica_acc_img img {
+    padding-top: 40px;
+    padding-bottom: 45px;
+}
+
+#page_101 .clinica_acc_short {
+    font-size: 20px;
+    color: #597383;
+    padding-top: 20px;
+    text-align: right;
+}
+
+#page_101 .clinica_more {
+    text-align: left;
+    color: #93ba46;
+    cursor: pointer;
+    padding-right: 10px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+#page_101 .clinica_acc_info ul {
+    font-weight: bold;
+    font-size: 20px;
+    color: #597383;
+}
+#page_101 .clinica_acc_info ul ul {
+    font-weight: 400;
+    padding-left: 35px;
+    line-height: 40px;
+    padding-top: 15px;
+}
+#page_101 .clinica_acc_info {
+  width: 60%;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin: auto;
+}
+#page_101 .clinica_acc_info ul {
+    list-style-image: url(https://www.clearclinica.com/wp-content/uploads/2016/09/green1.png);
+}
+#page_101 .clinica_acc_info ul ul {
+    font-weight: 400;
+    padding-left: 35px;
+    line-height: 40px;
+    padding-top: 15px;
+    width: 74%;
+}
+#page_101 .clinica_acc_info ul ul {
+    font-size: 20px;
+    color: #597383;
+    list-style-image: url(https://www.clearclinica.com/wp-content/uploads/2016/09/green2.png);
+}
+/*3rd acc*/
+#page_101 .logic_acc {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  background-color: #fff;
+  border-top-left-radius: 125px;
+  border-bottom-left-radius: 125px;
+  box-shadow: -5px -5px 5px 0px rgba(198,198,198,1);
+}
+#page_101 .accord_3 {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: end;
+            justify-content: flex-end;
+    flex-wrap: wrap;
+}
+#page_101 .logic_acc_img {
+    background-color: #ffa200;
+    border-radius: 50%;
+    width: 13%;
+    text-align: center;
+    margin: 20px;
+}
+#page_101 .logic_acc_img img {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#page_101 .acc_content {
+    width: 56%;
+    padding-top: 15px;
+    margin-left: 35px;
+}
+
+#page_101 .logic_acc_short {
+    font-size: 20px;
+    color: #597383;
+    padding-top: 20px;
+}
+
+#page_101 .logic_more {
+  text-align: right;
+  color: #ffa200;
+  cursor: pointer;
+  padding-right: 10px;
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+#page_101 .accord_section {
+    margin-top: 60px;
+}
+#page_101 .logic_acc_info ul {
+    font-weight: bold;
+    font-size: 20px;
+    color: #597383;
+}
+#page_101 .logic_acc_info ul ul {
+    font-weight: 400;
+    padding-left: 35px;
+    line-height: 40px;
+    padding-top: 15px;
+}
+#page_101 .logic_acc_info {
+    width: 80%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#page_101 .logic_acc_info ul {
+    list-style-image: url(https://www.clearclinica.com/wp-content/uploads/2016/09/yellow1.png);
+}
+#page_101 .logic_acc_info ul ul {
+    font-weight: 400;
+    padding-left: 35px;
+    line-height: 40px;
+    padding-top: 15px;
+    width: 74%;
+}
+#page_101 .logic_acc_info ul ul {
+    font-size: 20px;
+    color: #597383;
+    list-style-image: url(https://www.clearclinica.com/wp-content/uploads/2016/09/yellow2.png);
+}
+
+/*try demo section*/
+#page_101 .bot_section {
+    background: url('https://www.clearclinica.com/wp-content/uploads/2016/09/spitak.png');
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+
+#page_101 .demo_section {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  border: 1px solid #2698d6;
+  background: #fff;
+  font-size: 28px;
+  line-height: 50px;
+  padding: 75px;
+  color: #64747e;
+}
+#page_101 a#cta_button_2198284_458d25aa-7f42-49f1-b02a-b9f8934dba5d {
+    padding: 20px 125px;
+    font-size: 34px;
+}
+#page_101 .stu_cta {
+    text-align: center;
+    margin-top: -42px;
+}
+#page_101 .demo_demo {
+    width: 50%;
+    margin: auto;
+    background: #fff;
+}
+#page_101 .partner_section {
+    margin-top: 90px;
+}
+
+#page_101 .partner_title {
+    text-align: center;
+    font-size: 35px;
+    color: #2698d6;
+    padding-bottom: 30px;
+    font-weight: 700;
+}
+
+#page_101 .partner_text {
+    text-align: center;
+    font-size: 24px;
+    width: 55%;
+    margin: auto;
+    color: #6c6d6d;
+}
+
+#page_101 .partners_logo {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+#page_101 .partner_text a {
+    color: #2698d6;
+}
+
+/*101 page css end*/
+
+/*pricing page css Mher*/
+#pricing_page .top_image img {
+    width: 100%;
+    max-width: 1366px;
+}
+
+#pricing_page .top_title {
+    -webkit-box-pack: center;
+            justify-content: center;
+    -ms-grid-row-align: center;
+        align-self: center;
+    width: 100%;
+    text-align: center;
+    margin-top: -90px;
+}
+#pricing_page .top_title p {
+    color: #fff;
+    font-size: 35px;
+}
+#pricing_page .pricing_title_text{
+  font-size: 20px;
+  color:#274355;
+  width: 84%;
+  text-align: center;
+  margin: auto;
+  line-height: 35px;
+  padding-bottom: 100px;
+}
+#pricing_page .pricing_section {
+    padding-top: 70px;
+    margin-top: 50px;
+    font-family: 'MyriadPro-Regular';
+    background: url('https://www.clearclinica.com/wp-content/uploads/2016/09/spitak.png');
+    padding-bottom: 90px;
+}
+#pricing_page .pricing_rows {
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+}
+#pricing_page .pricing_fluid {
+    width: 21%;
+    background-color: #fff;
+    position: relative;
+}
+#pricing_page .pricing_fluid.sev {
+    background: url('https://www.clearclinica.com/wp-content/uploads/2016/09/2-2.png');
+}
+#pricing_page .pricing_head {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 50px 15px;
+  border-radius: 50%;
+  width: 60%;
+  margin: auto;
+  box-shadow: inset -4px -4px 16px 0px #8f949d;
+  margin-top: -90px;
+  margin-bottom: 50px;
+  background-color: #fff;
+  border: 10px solid #fff;
+  color: #505050;
+  font-size: 22px;
+}
+#pricing_page .klor {
+    background: url('https://www.clearclinica.com/wp-content/uploads/2016/09/2-2.png');
+    min-height: 200px;
+    background-size: cover;
+}
+#pricing_page .pricing_body {
+    text-align: center;
+}
+#pricing_page .pricing_body p {
+    padding: 10px 5px;
+}
+#pricing_page .pricing_body p:nth-child(even) {
+    background-color: #fff;
+}
+#pricing_page .pricing_body p:nth-child(odd) {
+    background-color: #f5f5f5;
+}
+#pricing_page .pricing_fluid.sev p:nth-child(odd) {
+    background: url('https://www.clearclinica.com/wp-content/uploads/2016/09/3-2.png');
+}
+#pricing_page .pricing_fluid.sev p:nth-child(even) {
+    background: none;
+}
+#pricing_page .pricing_fluid.sev p {
+    color: #fff;
+}
+#pricing_page .pricing_fluid.sev .pricing_head p {
+  background: none;
+  color: #505050;
+}
+#pricing_page .pricing_fluid:before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 0 0 25px;
+  border-color: transparent transparent transparent #000000;position: absolute;
+  top: -25px;
+  left: 90%;
+}
+#pricing_page .klor:before {
+  content: '';
+  width: 15px;
+  height: 50px;
+  position: absolute;
+  top: -50px;
+  left: 90%;
+  box-shadow: -3px 2px 5px 0px rgba(222, 219, 222, 0.52);
+}
+#pricing_page .call_butoni {
+    text-align: center;
+    padding: 30px 0;
+}
+#pricing_page .call_butoni a {
+    color: #fff;
+    padding: 10px 70px;
+    display: inline-block;
+    background-color: #68c233;
+    border-radius: 3px;
+}
+#pricing_page .pricing_fluid:after {
+    content: '';
+    border-style: solid;
+    border-width: 25px 25px 0 0;
+    border-color: #000000 transparent transparent transparent;
+    position: absolute;
+    left: 90%;
+    top: 100%;
+}
+#pricing_page .call_butoni:before {
+    content: '';
+    width: 15px;
+    height: 50px;
+    position: absolute;
+    top: 100%;
+    left: 90%;
+    box-shadow: -8px 2px 5px 0px rgba(222, 219, 222, 0.52);
+}
+#pricing_page .call_butoni a:hover {
+    opacity: 0.9;
+}
+
+
+
+/*pricing page css end*/
+
+
+
+
+/*Contact us page css*/
+#contact_page .top_image img {
+    width: 100%;
+    max-width: 1366px;
+}
+
+#contact_page .top_title {
+    -webkit-box-pack: center;
+            justify-content: center;
+    -ms-grid-row-align: center;
+        align-self: center;
+    width: 100%;
+    text-align: center;
+    margin-top: -90px;
+}
+#contact_page .top_title p {
+    color: #fff;
+    font-size: 35px;
+}
+#contact_page .contact_content {
+    margin-top: 42px;
+    background: url('https://www.clearclinica.com/wp-content/uploads/2016/09/2-3.png');
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+            justify-content: center;
+    background-size: cover;
+}
+#contact_page .contact_about {
+    font-size: 35px;
+}
+#contact_page .contact_info {
+    color: #fff;
+    width: 35%;
+    margin: 100px 0;
+}
+#contact_page .about_text {
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 25px;
+}
+#contact_page .contact_about p {
+    font-weight: 700;
+}
+#contact_page .basic_title {
+    font-size: 35px;
+    font-weight: 700;
+}
+#contact_page .basic_text div p {
+    display: inline-block;
+    padding-left: 30px;
+    font-weight: 700;
+}
+#contact_page .basic_text {
+    font-style: italic;
+}
+#contact_page .basic_text strong {
+    color: #93ba46;
+}
+#contact_page .contact_basic_info {
+    margin-top: 100px;
+    line-height: 70px;
+}
+#contact_page .basic_text div {
+    border-bottom: 1px solid #69727b;
+}
+#contact_page .basic_textdiv {
+  border-top: 1px solid;
+}
+#contact_page .hu {
+    border-top: 1px solid #69727b;
+}
+#contact_page .contact_row {
+    display: -webkit-box;
+    display: flex;
+    width: 86%;
+}
+#contact_page .contact_form {
+    width: 63%;
+    background-color: #fff;
+    margin-left: 55px;
+    margin-bottom: 35px;
+}
+#contact_page .contact_form_title {
+    color: #50504e;
+    font-size: 34px;
+    font-family: MyriadPro-Bold;
+    margin-top: 50px;
+}
+#contact_page .contact_form_row {
+    width: 90%;
+    margin: 0 auto;
+}
+#contact_page .contact_form_text {
+    font-size: 18px;
+    color: #a4a4a4;
+    margin-top: 25px;
+}
+/*contact us form css*/
+
+::-webkit-input-placeholder {
+font-size: 20px;
+color: #dddddd;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+font-size: 20px;
+color: #dddddd;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+font-size: 20px;
+color: #dddddd;
+}
+
+:-ms-input-placeholder {
+font-size: 20px;
+color: #dddddd;
+}
+
+#contact_page .contact_form_section {
+    width: 60%;
+    margin: auto;
+}
+#contact_page .contact_form_section .hs-form-required {
+    display: none;
+}
+#contact_page .contact_form_section form input {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#contact_page .contact_form_section .hs-form .hs-input, .hs-form textarea.hs-input {
+  max-width: 361px;
+  padding: 15px;
+  font-size: 20px;
+  width: 100%;
+}
+#contact_page textarea#message-42003d7c-d351-4757-98e9-8663cd31bcc3 {
+    max-width: 500px !important;
+    font-size: 16px !important;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    resize: vertical;
+}
+#contact_page .contact_form_section form input[type='submit'] {
+    max-width: 361px;
+    width: 100%;
+    padding: 20px 15px;
+    text-align: left;
+    font-size: 20px;
+    background: none;
+    background-color: #2698d6;
+    border: none;
+}
+
+#contact_page .hs-form.stacked .actions {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
+
+/*Contact us page css end*/
+
+/*Vision page css*/
+#vision_page .top_image img {
+    width: 100%;
+    max-width: 1366px;
+}
+#vision_page .top_title {
+    -webkit-box-pack: center;
+            justify-content: center;
+    -ms-grid-row-align: center;
+        align-self: center;
+    width: 100%;
+    text-align: center;
+    margin-top: -90px;
+}
+#vision_page .top_title  {
+    color: #fff;
+    font-size: 35px;
+}
+#vision_page .content_top_section {
+    text-align: center;
+    background: url('https://www.clearclinica.com/wp-content/uploads/2016/09/spitak.png');
+    color: #535353;
+    font-size: 20px;
+    padding-top: 75px;
+    padding-bottom: 25px;
+}
+#vision_page .content_montent {
+    margin-top: 48px;
+}
+#vision_page .content_top_section div {
+    padding-bottom: 25px;
+    width: 92%;
+    margin: auto;
+}
+#vision_page .mid_section {
+    background: url('https://www.clearclinica.com/wp-content/uploads/2016/09/55.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 89px;
+    box-shadow: 0px 0px 13px 0px rgba(222,219,222,1);
+}
+#vision_page .row1 {
+    display: -webkit-box;
+    display: flex;
+    padding-top: 35px;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+}
+#vision_page .flex1 {
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    width: 28%;
+    padding-left: 15px;
+}
+#vision_page .flex2 {
+    -ms-grid-row-align: center;
+        align-self: center;
+    width: 47%;
+    color: #274355;
+}
+#vision_page .row2 {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: end;
+            justify-content: flex-end;
+}
+
+#vision_page .flex3 {
+    width: 54%;
+    margin-top: 15px;
+    color: #274355;
+}
+#vision_page .row3 {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: end;
+            justify-content: flex-end;
+}
+#vision_page .flex4 {
+    width: 62%;
+    color: #274355;
+    margin-top: 35px;
+    padding-right: 5%;
+}
+#vision_page .row4 {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+            justify-content: center;
+}
+#vision_page .flex5 {
+    width: 70%;
+    padding-left: 15%;
+    color: #274355;
+    margin-top: 35px;
+}
+#vision_page .row5 {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: start;
+            justify-content: flex-start;
+}
+
+#vision_page .flex6 {
+    width: 80%;
+    color: #274355;
+    margin-top: 35px;
+    margin-left: 11%;
+}
+#vision_page .flex2:before, #vision_page .flex3:before, #vision_page .flex4:before, #vision_page .flex5:before,#vision_page .flex6:before {
+    content: '';
+    background: url(https://www.clearclinica.com/wp-content/uploads/2016/09/pointK.png);
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    background-size: cover;
+}
+#vision_page .row1,#vision_page .row2,#vision_page .row3,#vision_page .row4,#vision_page .row5 {
+    position: relative;
+}
+#vision_page .flex2:before {
+    left: 51%;
+}
+#vision_page .flex3:before {
+    left: 44%;
+}
+#vision_page .flex4:before {
+    left: 31%;
+}
+#vision_page .flex5:before {
+    left: 20%;
+}
+#vision_page .flex6:before {
+    left: 9%;
+}
+#vision_page .bot_section {
+    background:url('https://www.clearclinica.com/wp-content/uploads/2016/09/spitak.png');
+    padding: 50px 0 100px 0;
+}
+#vision_page .eh{
+  background: url('https://www.clearclinica.com/wp-content/uploads/2016/09/5-2.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: auto;
+  color: #6e6e6e;
+}
+#vision_page .no1,.no2,.no3,.no5,.no6,.no7, .no8 {
+    width: 20%;
+    text-align: justify;
+    margin-top: 135px;
+    position: absolute;
+}
+#vision_page .hamar_img {
+    text-align: center;
+}
+#vision_page .hehe {
+    min-height: 800px;
+    position: relative;
+}
+#vision_page .no1 {
+    left: 4%;
+    top: -105px;
+}
+#vision_page .hamar_text {
+    margin-top: 25px;
+}
+#vision_page .no2 {
+    left: 75%;
+    top: -105px;
+}
+#vision_page .no3 {
+    top: 25%;
+    left: 1%;
+}
+#vision_page .no4.nadpis {
+    position: absolute;
+    left: 39%;
+    top: 50%;
+    color: #2698d6;
+    font-size: 35px;
+}
+#vision_page .no5 {
+    left: 78%;
+    top: 25%;
+}
+#vision_page .no6 {
+    top: 480px;
+    left: 4%;
+}
+#vision_page .no7 {
+    top: 515px;
+    left: 40.7%;
+}
+#vision_page .no8 {
+    top: 480px;
+    left: 75%;
+}
+#vision_page .no3 .hamar_text {
+    text-align: center;
+}
+#vision_page .content_top_section a {
+    color: #1388d3;
+}
+
+/*Vision page css end*/
+
+/*Customers Stories page css*/
+
+#customer_page .top_title {
+    -webkit-box-pack: center;
+            justify-content: center;
+    -ms-grid-row-align: center;
+        align-self: center;
+    width: 100%;
+    text-align: center;
+    margin-top: -90px;
+}
+#customer_page .top_title p {
+    color: #fff;
+    font-size: 35px;
+}
+#customer_page .top_content_section {
+    background-color: #0291b5;
+    margin-top: 42px;
+    text-align: center;
+    width: 100%;
+    padding: 40px 35px;
+    color: #fff;
+    font-size: 20px;
+    box-sizing: border-box;
+    line-height: 35px;
+}
+#customer_page .partner_1 {
+    background: url('https://www.clearclinica.com/wp-content/uploads/2016/09/seri.png');
+    padding: 90px 0;
+}
+#customer_page .partner_2 {
+    background: url('https://www.clearclinica.com/wp-content/uploads/2016/09/spitak.png');
+    padding: 90px 0;
+}
+#customer_page .s1_top {
+    display: -webkit-box;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    -webkit-box-align: center;
+            align-items: center;
+    justify-content: space-around;
+}
+#customer_page .s1_top_img {
+  width: 20%;
+  background-color: #fff;
+  border: 10px solid #4a6d84;
+  border-radius: 50%;
+  padding: 90px 0px;
+  text-align: center;
+}
+#customer_page .s1_top_content {
+  width: 50%;
+}
+#customer_page .partner_1 .inf_cont {
+    width: 100%;
+}
+#customer_page .s2_bot {
+    display: -webkit-box;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    -webkit-box-align: center;
+            align-items: center;
+    justify-content: space-around;
+}
+#customer_page .s2_bot_img {
+    width: 20%;
+    background-color: #fff;
+    border: 10px solid #4a6d84;
+    border-radius: 50%;
+    padding: 90px 0px;
+    text-align: center;
+}
+#customer_page .s2_bot_content {
+    width: 50%;
+}
+#customer_page .partner_2 .inf_cont {
+    width: 100%;
+}
+#customer_page .partner_1.aa .s1_top_img {
+    padding: 80px 0;
+}
+#customer_page .cont_title{
+  padding-bottom: 35px;
+}
+#customer_page .s2_bot_img p{
+    font-size: 20px;
+    color: #2c4095;
+}
+#customer_page .partner_2 .s2_bot_img {
+    padding: 75px 0;
+}
+#customer_page .partner_1.cc .s1_top_img {
+    width: 22%;
+    padding: 100px 0px;
+}
+
+
+/*Customers Stories page css end*/
+
+/*partners page css*/
+#customer_page.partners .partner_2 .s2_bot_img img {
+    width: 95%;
+}
+
+#customer_page.partners .partner_1.aa .s1_top_img img{
+    width: 90%;
+}
+
+#customer_page.partners .partner_1.aa .s1_top_img{
+    padding: 85px 0;
+}
+
+#customer_page.partners .s1_top_img{
+    padding: 80px 0;
+}
+/*partners page css end*/
+
+/*our team css*/
+
+
+#team_page .top_image img {
+    width: 100%;
+    max-width: 1366px;
+}
+#team_page .top_title {
+    -webkit-box-pack: center;
+            justify-content: center;
+    -ms-grid-row-align: center;
+        align-self: center;
+    width: 100%;
+    text-align: center;
+    margin-top: -90px;
+}
+#team_page .top_title p {
+    color: #fff;
+    font-size: 35px;
+}
+#team_page .team_section {
+    margin-top: 48px;
+    background: url('https://www.clearclinica.com/wp-content/uploads/2016/09/spitak.png');
+    padding-bottom: 70px;
+    border-bottom: 3px solid rgba(140, 114, 140, 0.06);
+}
+#team_page .team_title {
+    text-align: center;
+    font-size: 35px;
+    color: #2698d6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#team_page .team_1 {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+            justify-content: center;
+}
+#team_page .member {
+    width: 30%;
+    text-align: center;
+    position: relative;
+}
+#team_page .member img {
+    max-width: 99%;
+}
+#team_page .member_about {
+    padding-top: 15px;
+    line-height: 20px;
+    color: #7f7f7f;
+}
+#team_page .member_info {
+    width: 60%;
+    margin: auto;
+}
+#team_page .more_btn {
+    font-size: 20px;
+    color: #2698d6;
+    cursor: pointer;
+}
+#team_page .about_more {
+    display: none;
+}
+#team_page .team_2 {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+            justify-content: center;
+    margin-top: 80px;
+}
+#team_page .member_2 {
+    width: 30%;
+    text-align: center;
+    position: relative;
+}
+#team_page .hover {
+    position: absolute;
+    width: 62%;
+    height: 251px;
+    left: 19%;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+}
+#team_page p.m_name {
+    font-size: 22px;
+    color: #2698d6;
+    margin-top: 180px;
+}
+#team_page p.m_position {
+    font-size: 18px;
+    color: #fff;
+}
+#team_page .member:hover .hover {
+    display: block;
+}
+#team_page .member_2:hover .hover {
+    display: block;
+}
+#team_page .about_content {
+    text-align: center;
+    color: #68747b;
+    font-size: 18px;
+    padding: 50px 0;
+    line-height: 30px;
+}
+#team_page .about_content_1 p,.about_content_2 p {
+    display: inline-block;
+    color: #2698d6;
+}
+#team_page .about_content_2 p{
+  color: #68747b;
+}
+#team_page .about_content_1 {
+    width: 90%;
+    margin: auto;
+}
+#team_page .about_content_2 {
+    padding-top: 20px;
+}
+#team_page .form_section {
+    padding: 70px 0;
+    background: url('https://www.clearclinica.com/wp-content/uploads/2016/09/back.jpg');
+}
+#team_page .form_title {
+    text-align: center;
+    font-size: 35px;
+    color: #2698d6;
+}
+#team_page .form_content {
+    text-align: center;
+    font-size: 20px;
+    color: #8a8586;
+    width: 67%;
+    margin: auto;
+    padding-top: 25px;
+}
+#team_page .asuma_form {
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+}
+#team_page .asuma_form form {
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+#team_page span.hs-form-required {
+    display: none;
+}
+#team_page .asuma_form form input {
+  background: transparent;
+  border: 1px solid #2698d6;
+  padding: 17px;
+  font-size: 20px;
+  color: #ddddd3;
+  box-sizing: border-box;
+}
+#team_page .asuma_form .form-columns-2 input {
+  max-width: 220px;
+}
+#team_page .hs-error-msgs {
+    font-size: 14px;
+    color: #566671;
+}
+#team_page .hs-form fieldset.form-columns-1 .hs-input {
+    width: 96% !important;
+    max-width: 470px;
+    margin-top: 30px;
+}
+#team_page form input[type="file"] {
+  opacity: 0;
+  margin-top: 0 !important;
+  cursor: pointer;
+  padding: 15px;
+}
+#team_page .hs_attach_file.field.hs-form-field {
+    background: url('https://www.clearclinica.com/wp-content/uploads/2016/09/7-4.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0;
+    max-width: 470px;
+    width: 100%;
+    border: 1px solid #2698d6;
+    margin-top: 30px;
+    background-repeat-y: inherit;
+    margin-bottom: 30px;
+}
+#team_page input.hs-button.primary.large {
+  max-width: 472px;
+  width: 100%;
+  background: #2698d6;
+  font-size: 28px;
+  padding: 15px;
+  cursor: pointer;
+  color: #fff;
+}
+#team_page input.hs-button.primary.large:hover {
+    opacity: 0.9;
+}
+#team_page ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color:#566671;
+}
+#team_page ::-moz-placeholder { /* Firefox 19+ */
+  color:#566671;
+}
+#team_page :-ms-input-placeholder { /* IE 10+ */
+  color:#566671;
+}
+#team_page :-moz-placeholder { /* Firefox 18- */
+  color:#566671;
+}
+
+
+/*our team css end*/
+
+
+
+#Footer{
+background: #274355;
+padding-bottom: 35px;
+border-top: 3px solid #b2d964;
+}
+div#Footer:after{
+content: '';
+display: block;
+clear: both;
+}
+.footer_1{
+max-width: 1250px;
+width: 100%;
+margin: auto;
+padding-top: 30px
+}
+.footer_1:after{
+content: '';
+display: block;
+clear: both;
+}
+.fotter_text{
+float: left;
+width: 22%;
+margin-left: 5%;
+}
+.fotter_text:nth-child(4){
+width: 13%;
+float: right;
+}
+.footer_2{
+clear: both;
+max-width: 1250px;
+width: 100%;
+margin: auto;
+padding-top: 30px;
+border-bottom: 1px solid #52715a;
+padding-bottom: 5px;
+}
+.fotter_text h3{
+font-size: 18px;
+color: white;
+text-transform: uppercase;
+margin-bottom: 20px;
+letter-spacing: 1px;
+}
+.fotter_text a{
+font-size: 14px;
+color: #97aebd;
+}
+.footer_2:after{
+content: '';
+display: block;
+clear: both;
+}
+.footer_logo{
+width: 70%;
+float: left;
+}
+.social_sharing{
+width: 15%;
+float: right;
+}
+.grid__item{
+float: left;
+margin-left: 2%;
+}
+.facebook img{
+border: 1px solid #2c4868;
+}
+.twittwr img{
+border: 1px solid #4082b4;
+}
+.linkedin img{
+border: 1px solid #1a658c;
+}
+.google img{
+border: 1px solid #aa3521;
+}
+.accordion-box{
+padding: 45px 0px 15px 0px;
+}
+article.accordion{
+text-align: center;
+}
+article.accordion{
+min-height: 60px;
+height: 60px;
+overflow: hidden;
+position: relative;
+-webkit-transition: all 0.5s;
+transition: all 0.5s;
+}
+.img_1,.img_3,.img_5,.img_7,.img_9{
+width: 48px;
+margin: auto;
+cursor: pointer;
+}
+.img_2,.img_4,.img_6,.img_8,.img_10{
+display: none;
+width: 48px;
+margin: auto;
+cursor: pointer;
+}
+.accordion.a1 .text-acc,.accordion.a3 .text-acc,.accordion.a5 .text-acc{
+width: 300px;
+font-size: 15px;
+margin: auto;
+position: relative;
+top: -10px;
+left: 210px;
+text-align: left;
+}
+.accordion.a2 .text-acc,.accordion.a4 .text-acc{
+width: 300px;
+font-size: 15px;
+margin: auto;
+position: relative;
+top: -10px;
+right: 210px;
+text-align: right;;
+}
+.btn-title{
+position: relative;
+}
+.accordion.a1 .title_acc,.accordion.a3 .title_acc,.accordion.a5 .title_acc{
+position: relative;
+top: -33px;
+left: 265px;
+width: 30%;
+margin: auto;
+text-align: left;
+cursor: pointer;
+}
+.accordion.a2 .title_acc,.accordion.a4 .title_acc{
+position: relative;
+top: -33px;
+right: 265px;
+width: 30%;
+margin: auto;
+text-align:right;
+cursor: pointer;
+}
+.title_acc{
+font-size: 22px;
+color:#274355;
+}
+.text-acc *{
+font-size: 15px;
+color: #858a8f;
+}
+article.accordion:before{
+content: '';
+position: absolute;
+display: block;
+left: 50%;
+top: 20px;
+width: 1px;
+height: 100%;
+background: #69727b;
+}
+article.accordion:last-child:before{
+content: '';
+position: absolute;
+display: block;
+left: 50%;
+top: 20px;
+width: 0px;
+height: 0;
+background: transparent;
+}
+.accordion.a1.highlight{
+height: 120px;
+}
+.accordion.a2.highlight{
+height: 120px;
+}
+.accordion.a3.highlight{
+height: 120px;
+}
+.accordion.a4.highlight{
+height: 120px;
+}
+.accordion.a5.highlight{
+height: 120px;
+}
+.img_1.highlight{
+display: none;
+}
+.img_3.highlight{
+display: none;
+}
+.img_5.highlight{
+display: none;
+}
+.img_7.highlight{
+display: none;
+}
+.img_9.highlight{
+display: none;
+}
+.img_2.highlight{
+display: block;
+}
+.img_4.highlight{
+display: block;
+}
+.img_6.highlight{
+display: block;
+}
+.img_8.highlight{
+display: block;
+}
+.img_10.highlight{
+display: block;
+}
+
+ul { list-style-type: none; }
+
+a,
+a:hover,
+a:focus,
+a:visited { text-decoration: none; }
+
+nav {
+position: absolute;
+width: 240px;
+height: 810px;
+/*width: 70vmin;*/
+/*height: 70vmin;*/
+/*min-width: 500px;*/
+/*min-height: 810px;*/
+margin: 0 auto;
+overflow: hidden;
+top: 145px;
+}
+
+/** MENU BUTTON ******************************************/
+
+#menuBtn {
+width: 0;
+height: 0;
+border-left: 0px solid transparent;
+border-right: 109px solid transparent;
+border-bottom: 126px solid #93ba46;
+display: -webkit-box;
+display: flex;
+-webkit-box-pack: center;
+        justify-content: center;
+-webkit-box-align: center;
+        align-items: center;
+transform: rotate(0deg) skewY(-30deg) translate(40%, -19%);
+-webkit-transform: rotate(0deg) skewY(-30deg) translate(40%, -19%);
+-ms-transform: rotate(0deg) skewY(-30deg) translate(40%, -19%);
+position: absolute;
+top: 60.4px;
+left: -47px;
+/*width: 10%;*/
+/*height: 10%;*/
+cursor: pointer;
+z-index: 2;
+will-change: transform;
+}
+
+#menuBtn svg { display: block; }
+
+#menuBtn:hover svg polygon {
+-webkit-animation: hexHover 0.7s;
+animation: hexHover 0.7s;
+}
+
+#menuBtn span {
+position: absolute;
+top: 50%;
+left: 50%;
+width: 28px;
+height: 3px;
+padding: 8px 0;
+background-clip: content-box;
+background-color: #585247;
+-webkit-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+-webkit-transition: background-color 0.5s;
+transition: background-color 0.5s;
+-webkit-transform: skewY(28deg) rotate(3deg);
+        transform: skewY(28deg) rotate(3deg);
+-webkit-transform: rotate(180deg) skewY(30deg) translate(-70%,-320%);
+        transform: rotate(180deg) skewY(30deg) translate(-70%,-320%);
+}
+
+#menuBtn span:before,
+#menuBtn span:after {
+position: absolute;
+background-color: #585247;
+content: '';
+width: 28px;
+height: 3px;
+-webkit-transition: -webkit-transform 0.5s;
+transition: -webkit-transform 0.5s;
+transition: transform 0.5s;
+transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+#menuBtn span:before { top: 0; }
+
+#menuBtn span:after { bottom: 0px; }
+@-webkit-keyframes
+hexHover {  0% {
+stroke-dasharray: 0, 0, 300;
+}
+10% {
+stroke-dasharray: 0, 20, 300;
+}
+100% {
+stroke-dasharray: 300, 20, 300;
+}
+}
+@keyframes
+hexHover {  0% {
+stroke-dasharray: 0, 0, 300;
+}
+10% {
+stroke-dasharray: 0, 20, 300;
+}
+100% {
+stroke-dasharray: 300, 20, 300;
+}
+}
+
+/** MENU ITEMS *******************************************/
+
+#hex {
+position: absolute;
+top: -6px;
+left: -4px;
+width: 100%;
+height: 100%;
+-webkit-transform: scale(0.1) translatez(0);
+transform: scale(0.1) translatez(0);
+-webkit-transition: -webkit-transform 0.05s 0.5s;
+transition: -webkit-transform 0.05s 0.5s;
+transition: transform 0.05s 0.5s;
+transition: transform 0.05s 0.5s, -webkit-transform 0.05s 0.5s;
+}
+
+.tr {
+position: absolute;
+left: 55%;
+top: 10%;
+width: 118px;
+height: 135px;
+/*width: 24.6%;*/
+/*height: 19%;*/
+-webkit-transform-origin: 0 100%;
+transform-origin: 0 100%;
+overflow: hidden;
+-webkit-transform: skewY(-30deg);
+transform: skewY(-30deg);
+opacity: 0;
+}
+
+.tr:nth-child(1) {
+-webkit-transform: rotate(0deg) skewY(-30deg);
+transform: rotate(0deg) skewY(-30deg);
+-webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+transition: opacity 0.5s, -webkit-transform 0.5s;
+transition: opacity 0.5s, transform 0.5s;
+transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+}
+
+.tr:nth-child(1) .clip {
+-webkit-transform: skewY(30deg) rotate(30deg);
+transform: skewY(30deg) rotate(30deg);
+}
+
+.tr:nth-child(1) .content {
+-webkit-transform: rotate(90deg);
+transform: rotate(90deg);
+-webkit-transform-origin: 58% 50%;
+transform-origin: 58% 50%;
+padding-left: 10%;
+-webkit-perspective-origin: 30% 70%;
+perspective-origin: 30% 70%;
+}
+
+.active .tr:nth-child(1) {
+-webkit-transform: rotate(-120deg) skewY(-30deg) translate(-89%, -111%);
+transform: rotate(-120deg) skewY(-30deg) translate(-89%, -111%);
+-webkit-transition: opacity 0.5s 0.05s, -webkit-transform 0.5s 0.05s cubic-bezier(0, 2.3, 0.8, 1);
+transition: opacity 0.5s 0.05s, -webkit-transform 0.5s 0.05s cubic-bezier(0, 2.3, 0.8, 1);
+transition: opacity 0.5s 0.05s, transform 0.5s 0.05s cubic-bezier(0, 2.3, 0.8, 1);
+transition: opacity 0.5s 0.05s, transform 0.5s 0.05s cubic-bezier(0, 2.3, 0.8, 1), -webkit-transform 0.5s 0.05s cubic-bezier(0, 2.3, 0.8, 1);
+}
+
+.tr:nth-child(2) {
+-webkit-transform: rotate(60deg) skewY(-30deg);
+transform: rotate(60deg) skewY(-30deg);
+-webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+transition: opacity 0.5s, -webkit-transform 0.5s;
+transition: opacity 0.5s, transform 0.5s;
+transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+}
+
+.tr:nth-child(2) .clip {
+-webkit-transform: skewY(30deg) rotate(30deg);
+transform: skewY(30deg) rotate(30deg);
+}
+
+.tr:nth-child(2) .content {
+-webkit-transform: rotate(-90deg);
+transform: rotate(-90deg);
+top: -8%;
+left: 6.67%;
+padding-left: 30%;
+-webkit-perspective-origin: 30% 50%;
+perspective-origin: 30% 50%;
+}
+
+.active .tr:nth-child(2) {
+-webkit-transform: rotate(60deg) skewY(-30deg) translate(-11%, 110%);
+transform: rotate(60deg) skewY(-30deg) translate(-11%, 110%);
+-webkit-transition: opacity 0.5s 0.1s, -webkit-transform 0.5s 0.1s cubic-bezier(0, 2.3, 0.8, 1);
+transition: opacity 0.5s 0.1s, -webkit-transform 0.5s 0.1s cubic-bezier(0, 2.3, 0.8, 1);
+transition: opacity 0.5s 0.1s, transform 0.5s 0.1s cubic-bezier(0, 2.3, 0.8, 1);
+transition: opacity 0.5s 0.1s, transform 0.5s 0.1s cubic-bezier(0, 2.3, 0.8, 1), -webkit-transform 0.5s 0.1s cubic-bezier(0, 2.3, 0.8, 1);
+}
+
+.tr:nth-child(3) {
+-webkit-transform: rotate(120deg) skewY(-30deg);
+transform: rotate(120deg) skewY(-30deg);
+-webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+transition: opacity 0.5s, -webkit-transform 0.5s;
+transition: opacity 0.5s, transform 0.5s;
+transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+}
+
+.tr:nth-child(3) .clip {
+-webkit-transform: skewY(30deg) rotate(30deg);
+transform: skewY(30deg) rotate(30deg);
+}
+
+.tr:nth-child(3) .content {
+-webkit-transform: rotate(-270deg);
+transform: rotate(-270deg);
+-webkit-transform-origin:58% 50%;
+transform-origin:58% 50%;
+padding-left: 10%;
+-webkit-perspective-origin: 30% 30%;
+perspective-origin: 30% 30%;
+}
+
+.active .tr:nth-child(3) {
+-webkit-transform: rotate(240deg) skewY(-30deg) translate(-189%, -212%);
+transform: rotate(240deg) skewY(-30deg) translate(-189%,-212%);
+-webkit-transition: opacity 0.5s 0.15s, -webkit-transform 0.5s 0.15s cubic-bezier(0, 2.3, 0.8, 1);
+transition: opacity 0.5s 0.15s, -webkit-transform 0.5s 0.15s cubic-bezier(0, 2.3, 0.8, 1);
+transition: opacity 0.5s 0.15s, transform 0.5s 0.15s cubic-bezier(0, 2.3, 0.8, 1);
+transition: opacity 0.5s 0.15s, transform 0.5s 0.15s cubic-bezier(0, 2.3, 0.8, 1), -webkit-transform 0.5s 0.15s cubic-bezier(0, 2.3, 0.8, 1);
+}
+
+.tr:nth-child(4) {
+-webkit-transform: rotate(180deg) skewY(-30deg);
+transform: rotate(180deg) skewY(-30deg);
+-webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+transition: opacity 0.5s, -webkit-transform 0.5s;
+transition: opacity 0.5s, transform 0.5s;
+transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+}
+
+.tr:nth-child(4) .clip {
+-webkit-transform: skewY(-150deg) rotate(30deg);
+transform: skewY(-150deg) rotate(30deg);
+}
+
+.tr:nth-child(4) .content {
+-webkit-transform: rotate(-90deg);
+transform: rotate(-90deg);
+-webkit-transform-origin: 49.4% 43.4%;
+transform-origin: 49.4% 43.4%;
+padding-left: 30%;
+-webkit-perspective-origin: 70% 30%;
+perspective-origin: 70% 30%;
+}
+
+.active .tr:nth-child(4) {
+-webkit-transform: rotate(60deg) skewY(-30deg) translate(89%,211%);
+transform: rotate(60deg) skewY(-30deg) translate(89%, 211%);
+-webkit-transition: opacity 0.5s 0.2s, -webkit-transform 0.5s 0.2s cubic-bezier(0, 2.3, 0.8, 1);
+transition: opacity 0.5s 0.2s, -webkit-transform 0.5s 0.2s cubic-bezier(0, 2.3, 0.8, 1);
+transition: opacity 0.5s 0.2s, transform 0.5s 0.2s cubic-bezier(0, 2.3, 0.8, 1);
+transition: opacity 0.5s 0.2s, transform 0.5s 0.2s cubic-bezier(0, 2.3, 0.8, 1), -webkit-transform 0.5s 0.2s cubic-bezier(0, 2.3, 0.8, 1);
+}
+
+.tr:nth-child(5) {
+-webkit-transform: rotate(240deg) skewY(-30deg);
+transform: rotate(240deg) skewY(-30deg);
+-webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+transition: opacity 0.5s, -webkit-transform 0.5s;
+transition: opacity 0.5s, transform 0.5s;
+transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+}
+
+.tr:nth-child(5) .clip {
+-webkit-transform: skewY(30deg) rotate(30deg);
+transform: skewY(30deg) rotate(30deg);
+}
+
+.tr:nth-child(5) .content {
+-webkit-transform: rotate(-270deg);
+transform: rotate(-270deg);
+top: -8%;
+left: 6.67%;
+padding-left: 10%;
+-webkit-perspective-origin: 70% 50%;
+perspective-origin: 70% 50%;
+}
+
+.active .tr:nth-child(5) {
+-webkit-transform: rotate(240deg) skewY(-30deg) translate(11%, -10%);
+transform: rotate(240deg) skewY(-30deg) translate(11%, -10%);
+-webkit-transition: opacity 0.5s 0.25s, -webkit-transform 0.5s 0.25s cubic-bezier(0, 2.3, 0.8, 1);
+transition: opacity 0.5s 0.25s, -webkit-transform 0.5s 0.25s cubic-bezier(0, 2.3, 0.8, 1);
+transition: opacity 0.5s 0.25s, transform 0.5s 0.25s cubic-bezier(0, 2.3, 0.8, 1);
+transition: opacity 0.5s 0.25s, transform 0.5s 0.25s cubic-bezier(0, 2.3, 0.8, 1), -webkit-transform 0.5s 0.25s cubic-bezier(0, 2.3, 0.8, 1);
+}
+
+.tr:nth-child(6) {
+-webkit-transform: rotate(300deg) skewY(-30deg);
+transform: rotate(300deg) skewY(-30deg);
+-webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+transition: opacity 0.5s, -webkit-transform 0.5s;
+transition: opacity 0.5s, transform 0.5s;
+transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+}
+
+.tr:nth-child(6) .clip {
+-webkit-transform: skewY(-150deg) rotate(30deg);
+transform: skewY(-150deg) rotate(30deg);
+}
+
+.tr:nth-child(6) .content {
+-webkit-transform: rotate(-90deg);
+transform: rotate(-90deg);
+-webkit-transform-origin: 49.7% 43.2%;
+transform-origin: 49.7% 43.2%;
+padding-left: 30%;
+-webkit-perspective-origin: 70% 70%;
+perspective-origin: 70% 70%;
+}
+
+.active .tr:nth-child(6) {
+-webkit-transform: rotate(60deg) skewY(-30deg) translate(-111%, 9%);
+transform: rotate(60deg) skewY(-30deg) translate(-111%, 9%);
+-webkit-transition: opacity 0.5s 0.3s, -webkit-transform 0.5s 0.3s cubic-bezier(0, 2.3, 0.8, 1);
+transition: opacity 0.5s 0.3s, -webkit-transform 0.5s 0.3s cubic-bezier(0, 2.3, 0.8, 1);
+transition: opacity 0.5s 0.3s, transform 0.5s 0.3s cubic-bezier(0, 2.3, 0.8, 1);
+transition: opacity 0.5s 0.3s, transform 0.5s 0.3s cubic-bezier(0, 2.3, 0.8, 1), -webkit-transform 0.5s 0.3s cubic-bezier(0, 2.3, 0.8, 1);
+}
+
+.tr:nth-child(7) {
+-webkit-transform: rotate(360deg) skewY(-30deg);
+transform: rotate(360deg) skewY(-30deg);
+-webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+transition: opacity 0.5s, -webkit-transform 0.5s;
+transition: opacity 0.5s, transform 0.5s;
+transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+}
+
+.tr:nth-child(7) .clip {
+-webkit-transform: skewY(30deg) rotate(30deg);
+transform: skewY(30deg) rotate(30deg);
+}
+
+.tr:nth-child(7) .content {
+-webkit-transform: rotate(-90deg);
+transform: rotate(-90deg);
+-webkit-transform-origin:50% 43%;
+transform-origin:50% 43%;
+padding-left: 30%;
+-webkit-perspective-origin: 70% 70%;
+perspective-origin: 70% 70%;
+}
+
+.active .tr:nth-child(7) {
+-webkit-transform: rotate(60deg) skewY(-30deg) translate(189%, 312%);
+transform: rotate(60deg) skewY(-30deg) translate(189%, 312%);
+-webkit-transition: opacity 0.5s 0.35s, -webkit-transform 0.5s 0.35s cubic-bezier(0, 2.3, 0.8, 1);
+transition: opacity 0.5s 0.35s, -webkit-transform 0.5s 0.35s cubic-bezier(0, 2.3, 0.8, 1);
+transition: opacity 0.5s 0.35s, transform 0.5s 0.35s cubic-bezier(0, 2.3, 0.8, 1);
+transition: opacity 0.5s 0.35s, transform 0.5s 0.35s cubic-bezier(0, 2.3, 0.8, 1), -webkit-transform 0.5s 0.35s cubic-bezier(0, 2.3, 0.8, 1);
+}
+
+.tr:nth-child(8){
+
+}
+.active .tr:nth-child(8){
+-webkit-transform: rotate(240deg) skewY(-30deg) translate(-289%, -313%);
+transform: rotate(240deg) skewY(-30deg) translate(-289%, -313%);
+-webkit-transition: opacity 0.5s 0.25s, -webkit-transform 0.5s 0.25s cubic-bezier(0, 2.3, 0.8, 1);
+transition: opacity 0.5s 0.25s, -webkit-transform 0.5s 0.25s cubic-bezier(0, 2.3, 0.8, 1);
+transition: opacity 0.5s 0.25s, transform 0.5s 0.25s cubic-bezier(0, 2.3, 0.8, 1);
+transition: opacity 0.5s 0.25s, transform 0.5s 0.25s cubic-bezier(0, 2.3, 0.8, 1), -webkit-transform 0.5s 0.25s cubic-bezier(0, 2.3, 0.8, 1);
+}
+.tr:nth-child(8) .clip{
+-webkit-transform: skewY(30deg) rotate(30deg);
+transform: skewY(30deg) rotate(30deg);
+}
+.tr:nth-child(8) .content{
+-webkit-transform: rotate(-270deg);
+transform: rotate(-270deg);
+-webkit-transform-origin: 58% 50%;
+transform-origin:58% 50%;
+padding-left:10%;
+-webkit-perspective-origin: 70% 70%;
+perspective-origin: 70% 70%;
+}
+.clip {
+position: absolute;
+top: 0;
+left: 0;
+width: 116%;
+height: 86.66%;
+overflow: hidden;
+-webkit-transform-origin: 0 0;
+transform-origin: 0 0;
+}
+
+.content {
+position: absolute;
+width: 86.6%;
+height: 116%;
+top: 0;
+left: 0;
+box-sizing: border-box;
+font-size: 2vmin;
+-webkit-perspective: 500px;
+perspective: 500px;
+background: #93ba46;
+}
+
+.content img {
+position: absolute;
+top: 0;
+left: -50%;
+right: -50%;
+margin: auto;
+height: 100%;
+z-index: -1;
+-webkit-transition: opacity 0.3s;
+transition: opacity 0.3s;
+pointer-events: none;
+}
+
+.content h2,
+.content p {
+position: absolute;
+width: 60%;
+line-height: 1em;
+color: #fff;
+/*opacity: 0;*/
+-webkit-transform: translateZ(-50px);
+transform: translateZ(-50px);
+}
+
+.content h2 {
+bottom: 50%;
+text-transform: uppercase;
+font-weight: 900;
+font-size: 2em;
+-webkit-transition: -webkit-transform 0.3s cubic-bezier(0, 2.3, 0.8, 1), opacity 0.3s;
+-webkit-transition: opacity 0.3s, -webkit-transform 0.3s cubic-bezier(0, 2.3, 0.8, 1);
+transition: opacity 0.3s, -webkit-transform 0.3s cubic-bezier(0, 2.3, 0.8, 1);
+transition: transform 0.3s cubic-bezier(0, 2.3, 0.8, 1), opacity 0.3s;
+transition: transform 0.3s cubic-bezier(0, 2.3, 0.8, 1), opacity 0.3s, -webkit-transform 0.3s cubic-bezier(0, 2.3, 0.8, 1);
+}
+
+.content p {
+position: absolute;
+top: 33%;
+font-size: 20px;
+-webkit-transition: -webkit-transform 0.3s 0.075s cubic-bezier(0, 2.3, 0.8, 1), opacity 0.3s 0.075s;
+-webkit-transition: opacity 0.3s 0.075s, -webkit-transform 0.3s 0.075s cubic-bezier(0, 2.3, 0.8, 1);
+transition: opacity 0.3s 0.075s, -webkit-transform 0.3s 0.075s cubic-bezier(0, 2.3, 0.8, 1);
+transition: transform 0.3s 0.075s cubic-bezier(0, 2.3, 0.8, 1), opacity 0.3s 0.075s;
+transition: transform 0.3s 0.075s cubic-bezier(0, 2.3, 0.8, 1), opacity 0.3s 0.075s, -webkit-transform 0.3s 0.075s cubic-bezier(0, 2.3, 0.8, 1);
+}
+
+.content:hover h2,
+.content:hover p {
+/*opacity: 1;*/
+/*-webkit-transform: translatez(0);*/
+/*-ms-transform: translatez(0);*/
+/*transform: translatez(0);*/
+}
+
+.content:hover img { opacity: 0.4; }
+
+.active #menuBtn:hover svg polygon {
+-webkit-animation: none;
+animation: none;
+}
+
+.active #menuBtn span { background-color: transparent; }
+
+.active #menuBtn span:before {
+-webkit-transform: translatey(8px) rotate(45deg);
+transform: translatey(8px) rotate(45deg);
+}
+
+.active #menuBtn span:after {
+-webkit-transform: translatey(-8px) rotate(-45deg);
+transform: translatey(-8px) rotate(-45deg);
+}
+
+.active #hex {
+-webkit-transform: scale(0.9) translatez(0);
+transform: scale(0.9) translatez(0);
+-webkit-transition: none;
+transition: none;
+will-change: transform;
+}
+
+.active .tr {
+opacity: 1;
+will-change: transform;
+}
+
+.active .tr:nth-child(6) p,.active .tr:nth-child(2) p,.active .tr:nth-child(4) p,.active .tr:nth-child(7) p{
+  top: 45%;
+    right: 5%;
+    text-align: right;
+    width: auto;
+        font-family: MyriadPro-Regular;
+}
+.active .tr:nth-child(5) p,.active .tr:nth-child(1) p,.active .tr:nth-child(3) p,.active .tr:nth-child(8) p{
+  top: 40%;
+    left: 5%;
+        font-family: MyriadPro-Regular;
+}
+.sub_1{
+  position: absolute;
+  left: -76%;
+  top: -24%;
+      width: 120px;
+      height: 134px;
+      overflow: visible;
+      -webkit-transform: skewY(46deg);
+              transform: skewY(46deg);
+      opacity: 19;
+      -webkit-perspective-origin: 10% 94%;
+              perspective-origin: 10% 94%;
+      -webkit-transform: skewY(30deg) rotate(120deg);
+              transform: skewY(30deg) rotate(120deg);
+      z-index: 999999;
+      display: block;
+}
+.sub_1.hover{
+display: block;
+}
+.sub_1 li a{
+  color: white;
+}
+.sub_1 li:nth-child(1){
+  text-align: center;
+  width: 0;
+  height: 0;
+  border-bottom: 67px solid #274355;
+  border-left: 120px solid transparent;
+  position: absolute;
+  z-index: 999999;
+      left: -2px;
+}
+.sub_1 li:nth-child(1) a{
+  position: absolute;
+      top: 57px;
+      left: -78px;
+}
+.sub_1 li:nth-child(2){
+  text-align: center;
+      width: 118px;
+      padding-top: 17px;
+      padding-bottom: 5px;
+      background: #274355;
+      position: absolute;
+      top: 66px;
+}
+.t5:hover{
+      overflow: visible;
+}
+.t1:hover{
+  z-index: 999999;
+    overflow: visible;
+}
+.active .tr.hover,.active .tr.t1.hover{
+    z-index: 99999999;
+}
+.t7:hover{
+  z-index: 999999;
+    overflow: visible;
+}
+.t4:hover{
+  z-index: 999999;
+    overflow: visible;
+}
+.sub_2{
+  position: absolute;
+  left: -76%;
+  top: -24%;
+      width: 120px;
+      height: 134px;
+      overflow: visible;
+      -webkit-transform: skewY(46deg);
+              transform: skewY(46deg);
+      opacity: 19;
+      -webkit-perspective-origin: 10% 94%;
+              perspective-origin: 10% 94%;
+      -webkit-transform: skewY(30deg) rotate(120deg);
+              transform: skewY(30deg) rotate(120deg);
+      z-index: 999999;
+      display: block;
+}
+.sub_2 li a{
+  color: white;
+}
+.sub_2 li:nth-child(1){
+  text-align: center;
+  width: 0;
+  height: 0;
+  border-bottom: 67px solid #274355;
+  border-left: 120px solid transparent;
+  position: absolute;
+  z-index: 999999;
+      left: -2px;
+}
+.sub_2 li:nth-child(1) a{
+  position: absolute;
+      top: 57px;
+      left: -67px;
+}
+.sub_2 li:nth-child(2){
+  text-align: center;
+      width: 118px;
+      padding-top: 17px;
+      padding-bottom: 5px;
+      background: #274355;
+      position: absolute;
+      top: 66px;
+}
+
+.sub_3{
+  position: absolute;
+    left: 27%;
+    top: 77%;
+    width: 120px;
+    height: 134px;
+    overflow: visible;
+    opacity: 19;
+    -webkit-perspective-origin: 10% 94%;
+            perspective-origin: 10% 94%;
+    -webkit-transform: skewY(30deg) rotate(-60deg);
+            transform: skewY(30deg) rotate(-60deg);
+    z-index: 999999;
+    display: block;
+}
+.sub_3 li:nth-child(1){
+  text-align: center;
+    width: 0;
+    height: 0;
+    border-bottom: 67px solid #274355;
+    border-right: 120px solid transparent;
+    position: absolute;
+    z-index: 999999;
+    left: -2px;
+}
+.sub_3 li:nth-child(1) a{
+  position: absolute;
+    top: 48px;
+    left: 5px;
+    width: 106px;
+    text-align: left;
+}
+.sub_3 li:nth-child(2){
+  text-align: center;
+    width: 105px;
+    padding-top: 17px;
+    padding-bottom: 5px;
+    background: #274355;
+    position: absolute;
+    top: 67px;
+    text-align: left;
+    padding-left: 13px;
+    padding-top: 44px;
+}
+.sub_3 li a{
+    color: white;
+}
+.sub_4{
+  position: absolute;
+    left: 27%;
+    top: 76%;
+    width: 120px;
+    height: 134px;
+    overflow: visible;
+    opacity: 19;
+    -webkit-perspective-origin: 10% 94%;
+            perspective-origin: 10% 94%;
+    -webkit-transform: skewY(30deg) rotate(-60deg);
+            transform: skewY(30deg) rotate(-60deg);
+    z-index: 999999;
+    display: block;
+}
+.sub_4 li:nth-child(1){
+  text-align: center;
+    width: 0;
+    height: 0;
+    border-bottom: 67px solid #274355;
+    border-right: 120px solid transparent;
+    position: absolute;
+    z-index: 999999;
+    left: -2px;
+}
+.sub_4 li:nth-child(1) a{
+  position: absolute;
+    top: 57px;
+    left: 19px;
+}
+.sub_4 li:nth-child(2){
+  text-align: center;
+      width: 102px;
+      padding-top: 17px;
+      padding-bottom: 5px;
+      background: #274355;
+      position: absolute;
+      top: 66px;
+      text-align: left;
+    padding-left: 15px;
+    padding-top: 23px;
+}
+.sub_4 li a{
+  color: white;
+}
+.flex2-mobile{
+        display: none;
+    }
+
+@media(max-width:1208px){
+    .cta1{
+      margin-left: 5% !important;
+    }
+}
+
+@media(max-width:1136px){
+    .cta1{
+      margin-left: 0% !important;
+    }
+}
+
+
+@media(max-width:1078px){
+  .cta2 {
+    margin-right: 12% !important;
+  }
+}
+
+@media(min-width:768px) and (max-width:1024px){
+  #cta{
+    width: 40%!important;
+  }
+  #num{
+    width: 58%!important;
+  }
+  .accordion.a1 .title_acc, .accordion.a3 .title_acc, .accordion.a5 .title_acc{
+        left: 175px;
+  }
+  .accordion.a2 .title_acc, .accordion.a4 .title_acc{
+        right: 175px;
+  }
+  .social_sharing{
+        width: 27%;
+  }
+  .footer_logo{
+        width: 65%;
+            padding-left: 25px;
+  }
+}
+
+
+
+@media(max-width:767px){
+  .ebook_text {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+            justify-content: center;
+}
+#hex{
+  top: -7px;
+}
+.ebook {
+    width: 50%;
+    margin-left: 20%;
+}
+
+.textttt span {
+}
+
+.textttt {
+    text-align: center;
+}
+
+.textttt a#cta_button_2198284_c592f746-f019-4940-9240-d295d84e6026 {
+    float: none !important;
+}
+.accordion.a1 .title_acc, .accordion.a3 .title_acc, .accordion.a5 .title_acc {
+    left: 175px;
+}
+
+.accordion.a1 .text-acc, .accordion.a3 .text-acc, .accordion.a5 .text-acc {
+}
+
+.accordion.a2 .title_acc, .accordion.a4 .title_acc {
+    right: 175px;
+    top: -40px;
+}
+.header{
+    min-height: 41px;
+}
+.welcome{
+display: none;
+}
+
+.number{
+margin-right: 0;
+}
+.ebook img {
+    width: 100%;
+}
+.cta1{
+margin-left: 10px;
+zoom: 0.6;
+}
+.cta2{
+margin-right: 10px;
+zoom: 0.6;
+}
+.header .logo{
+border-right: 260px solid transparent;
+border-top: 153px solid #274355;
+    top: 41px;
+}
+.tr{
+width: 75px;
+height: 86px;
+}
+nav{
+    top: 50px;
+}
+#menuBtn{
+border-right: 81px solid transparent;
+border-bottom: 108px solid #93ba46;
+left: -47px;
+}
+#menuBtn span{
+-webkit-transform: rotate(180deg) skewY(30deg) translate(-70%,-295%);
+        transform: rotate(180deg) skewY(30deg) translate(-70%,-295%);
+}
+#hex{
+left: -51px;
+}
+.header .logo img{
+left: 25px;
+bottom: 115px;
+width: 120px;
+}
+.title{
+padding-top: 83px;
+padding-bottom: 0px;
+}
+.title_1{
+font-size: 26px;
+padding-right: 20px;
+width: 80%;
+margin: auto 0 auto auto;
+}
+.title_2{
+font-size: 26px;
+margin-top: 0px;
+width: 80%;
+float: right;
+padding-top: 3px;
+padding-right: 20px;
+}
+.process{
+margin: 60px auto auto auto;
+width: 90%;
+}
+.process ul li{
+font-size: 13px;
+padding-left: 20px;
+}
+#section_1{
+background-position: 62%;
+}
+.video{
+position: relative;
+z-index: inherit; ;
+float: none;
+/*padding: 15px 10px 10px;*/
+}
+.video img,.demo img{
+  width: 100%;
+}
+.demo{
+position: relative;
+z-index: inherit;;
+float: none;
+margin-top: 10px;
+/*padding: 15px 10px 10px;*/
+}
+.benefits h2, .title_3 h2, .title_4 h2, .title_5 h2{
+font-size: 27px;
+padding-top: 30px;
+padding-bottom: 15px;
+}
+.companies{
+float: none;
+width: 100%;
+margin-bottom: 35px
+}
+.cors{
+float: none;
+width: 100%;
+margin-bottom: 35px
+}
+.investors{
+position: static;
+width: 100%;
+margin-bottom: 25px;
+}
+div#section_2{
+background-image:url(http://i1230.photobucket.com/albums/ee497/Artur_Arshakyan/4_zpsxkcmvks1.png);
+background-repeat: repeat;
+background-size: contain;
+background-position: 50% 31%;
+}
+.logo_costomer{
+margin-left: 2.5%;
+}
+.partner_logo{
+padding-bottom: 25px;
+padding-top: 25px;
+}
+.overview{
+background-image: url(http://i1230.photobucket.com/albums/ee497/Artur_Arshakyan/22_1_zpsgavjevry.png);
+background-repeat: repeat;
+background-size: cover;
+background-position: 83%;
+}
+
+.download{
+float: none;
+margin-top: 25px;
+/*padding: 15px 10px 10px;*/
+}
+.download img{
+  width: 100%;
+}
+.footer_1{
+width: 95%;
+}
+.fotter_text{
+float: none;
+width: 45%;
+display: inline-table;
+margin-left: 0;
+margin-bottom: 25px;
+}
+.fotter_text:nth-child(4),.fotter_text:nth-child(2){
+width: 45%;
+float: right;
+text-align: right;
+}
+.footer_logo{
+width: 75%;
+float: none;
+margin: auto;
+text-align: center;
+border-bottom: 1px solid #52715a;
+padding-bottom: 8px;
+}
+.footer_logo img{
+width: 100%;
+}
+.footer_2{
+border: 0;
+}
+.social_sharing{
+width: 30%;
+float: none;
+margin: auto;
+margin-top: 10px;
+}
+.social_sharing:after{
+content: '';
+display: block;
+clear: both;
+}
+.active .tr:nth-child(6) p, .active .tr:nth-child(2) p, .active .tr:nth-child(4) p, .active .tr:nth-child(7) p{
+  font-size: 15px;
+}
+.active .tr:nth-child(5) p, .active .tr:nth-child(1) p, .active .tr:nth-child(3) p, .active .tr:nth-child(8) p{
+  font-size: 15px;
+}
+.sub_1 li:nth-child(1){
+  border-bottom: 42px solid #274355;
+    border-left: 73px solid transparent;
+    left: 25px;
+    top: 49px;
+}
+.sub_1 li:nth-child(1) a{
+  top: 40px;
+left: -56px;
+}
+.sub_1 li a,.sub_2 li a{
+  font-size: 13px;
+}
+.sub_1 li:nth-child(2){
+  width: 73px;
+    padding-top: 23px;
+    top: 91px;
+    left: 25px;
+}
+.sub_2 li:nth-child(1){
+  border-bottom: 42px solid #274355;
+    border-left: 73px solid transparent;
+    left: 25px;
+    top: 49px;
+}
+.sub_2 li:nth-child(1) a{
+  top: 40px;
+left: -56px;
+}
+.sub_2 li:nth-child(2){
+  width: 73px;
+    padding-top: 23px;
+    top: 91px;
+    left: 25px;
+}
+.sub_3 li:nth-child(1){
+  left: 22px;
+  border-bottom: 41px solid #274355;
+    border-right: 74px solid transparent;
+}
+.sub_3 li:nth-child(1) a{
+  top: 45px;
+    left: 3px;
+}
+.sub_3 li a{
+      font-size: 13px;
+}
+.sub_3 li:nth-child(2){
+      width: 83px;
+          top: 41px;
+}
+.sub_4 li:nth-child(1){
+  left: 22px;
+  border-bottom: 41px solid #274355;
+    border-right: 74px solid transparent;
+}
+.sub_4 li:nth-child(1) a{
+  top: 29px;
+  left: 6px;
+}
+.sub_4 li:nth-child(2){
+  width: 69px;
+      top: 41px;
+      left: 22px;
+      padding-left: 6px;
+}
+.sub_4 li a{
+      font-size: 13px;
+}
+
+/*partners mobile css*/
+#customer_page .top_image img {
+    width: 100%;
+}
+#customer_page .s1_top_img {
+    width: 45%;
+}
+#customer_page .top_title {
+    margin-top: -48px;
+}
+
+#customer_page .top_content_section {
+    margin-top: 0px;
+}
+
+#customer_page .partner_1 {
+    padding: 60px 0px;
+}
+
+#customer_page .s1_top {
+    flex-wrap: wrap;
+}
+
+#customer_page .s1_top_content {
+    width: 100%;
+    margin-top: 15px;
+}
+
+#customer_page .cont_title {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#customer_page.partners .s1_top_img {
+    width: 40%;
+}
+
+#customer_page .partner_1 .inf_cont {
+    text-align: justify;
+}
+
+#customer_page .partner_2 {
+    padding: 60px 0;
+}
+
+#customer_page .s2_bot {
+    flex-wrap: wrap;
+}
+
+#customer_page .s2_bot_content {
+    width: 100%;
+    -webkit-box-ordinal-group: 3;
+            order: 2;
+    margin-top: 15px;
+}
+
+#customer_page .partner_2 .inf_cont {
+    text-align: justify;
+}
+#customer_page .partner_2 .s2_bot_img {
+    width: 40%;
+}
+/*partners mobile css*/
+
+}
+
+
+@media screen and (max-width : 645px){
+    #num{
+      #num {
+          width: 72%!important;
+    }
+
+    #cta{
+          width: 28%!important;
+    }
+}
+
+@media(max-width:480px){
+.header .logo{
+border-right: 260px solid transparent;
+border-top: 153px solid #274355;
+}
+.tr{
+width: 75px;
+height: 86px;
+}
+nav{
+top: 50px;
+}
+#menuBtn{
+border-right: 81px solid transparent;
+border-bottom: 108px solid #93ba46;
+left: -47px;
+}
+#menuBtn span{
+-webkit-transform: rotate(180deg) skewY(30deg) translate(-70%,-295%);
+        transform: rotate(180deg) skewY(30deg) translate(-70%,-295%);
+}
+#hex{
+left: -51px;
+}
+.header .logo img{
+left: 25px;
+bottom: 115px;
+width: 120px;
+}
+.text-acc * {
+    font-size: 12px;
+    color: #858a8f;
+}
+.accordion.a2.highlight {
+    height: 130px;
+}
+.textttt span {
+    font-size: 15px;
+}
+.textttt ul li {
+    font-size: 18px;
+}
+
+.textttt ul li:before {
+    left: -7%;
+    top: 7px;
+}
+/*customer stories*/
+#customer_page .s1_top_img {
+    width: 85%;
+    z-index: 100000;
+}
+
+/*page 101 mobile 767*/
+#page_101 .havayi {
+    width: 100%;
+}
+
+#page_101 .user_acc {
+    border-radius: initial;
+}
+
+#page_101 .user_acc_img {
+    width: 22%;
+}
+
+#page_101 .clinica_acc {
+    border-radius: inherit;
+    flex-wrap: wrap;
+padding-top: 15px;
+}
+
+#page_101 .accord_2 {}
+
+#page_101 .clinica_acc_img {
+    width: 22%;
+}
+
+#page_101 .clinica_acc_short {
+  text-align: justify;
+  box-sizing: border-box;
+  padding: 10px 5px;
+
+}
+
+#page_101 .logic_acc {
+    border-radius: inherit;
+    flex-wrap: wrap;
+padding-top: 15px;
+}
+
+#page_101 .logic_acc_img {
+    width: 25%;
+}
+
+#page_101 .demo_section {
+    width: 96%;
+    padding: 0;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 0 5px;
+}
+
+#page_101 a#cta_button_2198284_458d25aa-7f42-49f1-b02a-b9f8934dba5d {
+    padding: 5px 15px;
+    font-size: 18px;
+}
+
+#page_101 .demo_demo {
+    width: 100%;
+    background: none;
+}
+
+#page_101 .partner_section {
+    margin-top: 50px;
+}
+
+#page_101 .partner_title {
+    font-size: 25px;
+}
+
+#page_101 .partner_text {
+    font-size: 20px;
+    width: 60%;
+}
+/*page 101 mobile 767*/
+}
+@media (max-width:650px) {
+  #page_101 .top_content_text {
+    width: 90%;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+#page_101 .user_acc {
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+#page_101 .acc_content {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+}
+
+#page_101 .acc_title_font {
+    font-size: 22px;
+}
+
+#page_101 .user_acc_short {
+    font-size: 18px;
+    text-align: justify;
+box-sizing: border-box;
+padding: 0 5px;
+}
+
+#page_101 .clinica_content {
+    width: 100%;
+    -webkit-box-ordinal-group: 3;
+            order: 2;
+    text-align: center;
+    margin-left: 0;
+}
+
+#page_101 .logic_acc_short {
+    font-size: 18px;
+    box-sizing: border-box;
+padding: 10px 5px;
+text-align: justify;
+}
+}
+
+
+
+@media(max-width:470px){
+  .video a#cta_button_2198284_87574417-98da-4889-9eac-0d970f816ed3 {
+    float: none;
+    padding: 15px 138px;
+}
+
+.demo a#cta_button_2198284_758f479a-bfcf-4a2c-994f-6bd0e9796a62 {
+    margin-top: 15px;
+    padding: 15px 146px;
+        float: none;
+}
+.accordion.a2 .title_acc, .accordion.a4 .title_acc {
+    right: 110px;
+}
+
+.accordion.a1 .title_acc, .accordion.a3 .title_acc, .accordion.a5 .title_acc {
+    left: 115px;
+        top: -45px;
+}
+.accordion.a2.highlight {
+    height: 150px;
+}
+.accordion.a1 .text-acc, .accordion.a3 .text-acc, .accordion.a5 .text-acc {
+    left: 110px;
+}
+
+.accordion.a2 .text-acc, .accordion.a4 .text-acc {
+    right: 110px;
+    width: 150px;
+}
+.textttt a#cta_button_2198284_c592f746-f019-4940-9240-d295d84e6026 {
+    float: none !important;
+    padding: 12px 55px;
+}
+.demo {
+    margin-top: 0 !important;
+}
+.accordion.a1 .text-acc, .accordion.a3 .text-acc, .accordion.a5 .text-acc {
+    width: 140px;
+}
+.video {
+    z-index: inherit;
+}
+}
+
+@media (max-width:465px) {
+  .video {
+      z-index: 99999999;
+      text-align: center;
+  }
+
+  a#cta_button_2198284_87574417-98da-4889-9eac-0d970f816ed3 {
+      max-width: 250px;
+      display: inline-block;
+      width: 100%;
+      padding: 10px 0 !important;
+          font-size: 18px;
+  }
+
+  a#cta_button_2198284_758f479a-bfcf-4a2c-994f-6bd0e9796a62 {
+      max-width: 250px;
+      display: inline-block;
+      width: 100%;
+      padding: 10px 0 !important;
+      font-size: 18px;
+  }
+  .demo {
+    text-align: center;
+    z-index: 9999999;
+}
+#hex {
+    top: -13px;
+}
+/*parters mobile css*/
+#customer_page .top_image img {
+    width: 100%;
+}
+
+#customer_page .top_title {
+    margin-top: -50px;
+}
+
+#customer_page .top_content_section {
+    margin-top: 0;
+    padding: 10px 5px;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+#customer_page .partner_1 {
+    padding: 15px 5px;
+}
+
+#customer_page .s1_top {
+    flex-wrap: wrap;
+}
+
+#customer_page .s1_top_content {
+    width: 100%;
+    margin-top: 15px;
+}
+
+#customer_page.partners .s1_top_img {
+    width: 80%;
+}
+
+#customer_page .cont_title {
+    text-align: center;
+    font-size: 25px;
+}
+
+#customer_page .partner_1 .inf_cont {
+    text-align: justify;
+}
+
+p.cont_text {
+    font-size: 16px;
+}
+
+#customer_page .partner_2 {
+    padding: 40px 0;
+}
+
+#customer_page .s2_bot {
+    flex-wrap: wrap;
+}
+
+#customer_page .s2_bot_content {
+    width: 100%;
+    -webkit-box-ordinal-group: 3;
+            order: 2;
+    margin-top: 15px;
+}
+
+#customer_page .partner_2 .s2_bot_img {
+    width: 80%;
+}
+
+#customer_page .partner_2 .inf_cont {
+    text-align: justify;
+}
+/*parters mobile css*/
+
+/*101 page mobile*/
+#page_101 .partners_logo img {
+    width: 80%;
+}
+#page_101 .user_acc_img,#page_101 .clinica_acc_img,#page_101 .logic_acc_img {
+    width: 50%;
+}
+#page_101 .top_title {
+    margin-top: -50px;
+}
+
+#page_101 .top_content {
+    margin-top: 0;
+}
+#page_101 .user_acc_img, #page_101 .clinica_acc_img, #page_101 .logic_acc_img {
+    margin: auto;
+}
+
+#page_101 .user_acc_info {
+    width: 90%;
+}
+
+#page_101 .user_acc_info ul {
+    font-size: 16px;
+}
+
+#page_101 .user_acc_info ul ul {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+#page_101 .clinica_acc_info {
+    width: 85%;
+}
+
+#page_101 .clinica_acc_info ul {
+    font-size: 16px;
+}
+
+#page_101 .clinica_acc_info ul ul {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+#page_101 .logic_acc_info {
+    width: 90%;
+}
+
+#page_101 .logic_acc_info ul {
+    font-size: 16px;
+}
+
+#page_101 .logic_acc_info ul ul {
+    font-size: 16px;
+    line-height: 25px;
+}
+#page_101 .stu_cta {
+    margin-top: 20px;
+}
+/*our team*/
+#team_page .asuma_form{
+  width: 80%;
+}
+#team_page .more_btn {
+    text-align: right;
+}
+#team_page form.hs-form .form-columns-2 .hs-form-field .hs-input, form.hs-form .form-columns-3 .hs-form-field .hs-input{
+  width: 100%;
+}
+}
+@media (max-width:464px) and (min-width:355px) {
+  #hex {
+    top: -2px;
+}
+}
